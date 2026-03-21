@@ -1,5 +1,5 @@
 [Föreläsningsanteckningar](https://canvas.kth.se/courses/59410/pages/forelasningar-anteckningar-bilder-och-kompletterande-material?module_item_id=1392632)
-### Töjningstillstånd (2D/3D)
+## Töjningstillstånd (2D/3D)
 I varje punkt $(x,y,z)$ tilldelas en förskjutningsvektor $\underset{\sim}{u}=(u,v,w)$ som beskriver hur punkten förflyttas under kroppens deformation.
 
 Vi definierar normaltöjningar för ett visst koordinatsystem enligt (t.ex för $x$,$y$)
@@ -29,5 +29,24 @@ där
 $$
 \varepsilon_{ij}=\frac{\gamma_{ij}}{2}.
 $$
-Töjningsmatrisen $\underset{\sim}{T}$ är en tensor, transfomerar som en tensor.
+Töjningsmatrisen $\underset{\sim}{T}$ är en tensor, transfomerar som en tensor. Detta betyder att för en snittyta med normal $\underset{\sim}{n}$ så blir 
+$$
+\varepsilon_{n} = \underset{\sim}{n}^T \underset{\sim}{T}\underset{\sim}{n}, \quad \frac{\gamma_{n}}{2} = \sqrt{ |\underset{\sim}{T}\underset{\sim}{n}|^2-\varepsilon_{n}^2 }.
+$$
+
+## Huvudtöjningar
+>[!definition]
+>**Huvudtöjning**
+>En huvudtöjning är en normaltöjning i en riktning längs med vilkenn ingen skjuvning förekommer. Denna riktning kallas huvudtöjningsriktning.
+
+Det finns alltid $3$ st ortogonala huvudtöjningar $\varepsilon_{1}>\varepsilon_{2}>\varepsilon_{3}$ med huvudtöjningsriktningar $\underset{\sim}{n_{1}}, \underset{\sim}{n_{2}}, \underset{\sim}{n_{3}}$.  Bestäms likt som egenvärdesprovlem enligt
+$$
+[\underset{\sim}{T} - \varepsilon \cdot I]\underset{\sim}{n} = \underset{\sim}{0}.
+$$
+## Mohrs töjningscirkel
+
+
+
+
+
 
