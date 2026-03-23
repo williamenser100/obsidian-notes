@@ -31,7 +31,22 @@ Skrivsätt för Hermitska operatorer: $\langle \Psi_{1} |\hat{A}| \Psi_{2} \rang
 
 Sats: För egenvärdesproblemet $\hat{A}\ket{\Psi_{n}} = a_{n}\ket{\Psi_{n}}$ för Hermitska operatorer gäller
 1. $a_{n}$ är reella
-2. Egenfunktioner $\ket{\Psi_{n}}, \ket{\Psi_{m}}$ till olika egenvärden är ortogonala.
-3. Egenfunktionerna är fullständiga d.v.s bildar en bas för Hilbertrummet.
+2. Egenfunktioner $\ket{\Psi_{n}}, \ket{\Psi_{m}}$ till olika egenvärden är ortogonala. Degeneration om flera egenvektorer till samma egenvärden. Vid degeneration kan vi välja så att vektorerna blir ortogonala.
+3. Egenvektorerna utgör en bas för Hilbertrummet. $\ket{\Psi}=\sum_{n}c_{n}\ket{\Psi_{n}}$. 
+
+>[!Postulat 2]
+>Observabler representeras av Hermitska operatorer med fullständiga egenvektorer = bildar bas.
+>- Postion $x$ : $\hat{x}=x$.
+>- Rörelsemängd $p$ : $\hat{p}=\frac{\hbar}{i}\frac{ \partial }{ \partial x }$.
+>- Observabel med klassiska utryck: $A(x,p)$ : $\hat{A}=A(\hat{x},\hat{p})$.
+
+
+
+
+
+
+
+
+
 
 
