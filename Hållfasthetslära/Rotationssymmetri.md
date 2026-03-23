@@ -14,3 +14,4 @@ $$
 \sigma_{\varphi} = \sigma_{\theta} = \frac{pa}{2h}, \quad \sigma_{r} = 0.
 $$
 Ovan beskriver huvudspänningstillstånd $\tau_{\varphi z}=0,\tau_{\varphi\theta}=0$.
+## Rotationssymmetriska tillstånd
