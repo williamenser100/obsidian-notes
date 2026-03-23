@@ -37,9 +37,9 @@ $$
 ## Huvudtöjningar
 >[!definition]
 >**Huvudtöjning**
->En huvudtöjning är en normaltöjning i en riktning längs med vilkenn ingen skjuvning förekommer. Denna riktning kallas huvudtöjningsriktning.
+>En huvudtöjning är en normaltöjning i en riktning längs med vilken ingen skjuvning förekommer. Denna riktning kallas huvudtöjningsriktning.
 
-Det finns alltid $3$ st ortogonala huvudtöjningar $\varepsilon_{1}>\varepsilon_{2}>\varepsilon_{3}$ med huvudtöjningsriktningar $\underset{\sim}{n_{1}}, \underset{\sim}{n_{2}}, \underset{\sim}{n_{3}}$.  Bestäms likt som egenvärdesprovlem enligt
+Det finns alltid $3$ st ortogonala huvudtöjningar $\varepsilon_{1}>\varepsilon_{2}>\varepsilon_{3}$ med huvudtöjningsriktningar $\underset{\sim}{n_{1}}, \underset{\sim}{n_{2}}, \underset{\sim}{n_{3}}$.  Bestäms likt som egenvärdesproblem enligt
 $$
 [\underset{\sim}{T} - \varepsilon \cdot I]\underset{\sim}{n} = \underset{\sim}{0}.
 $$
