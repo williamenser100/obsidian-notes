@@ -46,9 +46,27 @@ $$
 ## Mohrs töjningscirkel
 
 ![[Pasted image 20260323093423.png|426]]
-Plottar alla punkter $(\varepsilon_{x}, \frac{\gamma_{xy}}{2})$ ritas i ett $\varepsilon, \frac{\gamma}{2}$-plan. I den gäller att 
-- Radien $R$ $\to$ $R=\sqrt{ \left( \frac{\varepsilon_{x}-\varepsilon_{y}}{2} \right)^2 +\left( \frac{\gamma_{xy}}{2} \right)^2}$
-- Tillståndet i k
+Mohrs töjningscirkel plottar alla punkter $(\varepsilon_{x}, \frac{\gamma_{xy}}{2})$ ritas i ett $\varepsilon, \frac{\gamma}{2}$-plan. Då gäller att
+- Radien $R$ $\to$ $R=\sqrt{ \left( \frac{\varepsilon_{x}-\varepsilon_{y}}{2} \right)^2 +\left( \frac{\gamma_{xy}}{2} \right)^2}$.
+- Mittpunkt $\varepsilon _m=\frac{\varepsilon_{x}-\varepsilon_{y}}{2}$.
+- Tillståndet då vi i koordinatsystemet roterat moturs $\varphi$ från x-axeln fås genom att rotera diametern i Mohrs cirkel med $2\varphi$ åt motsatt håll (medurs).
+- Huudtöjningarna kan bestämmas enligt $\varepsilon_{1,2}=\varepsilon_{m} \pm R$.
+
+## Hookes generaliserade lag
+Fås genom att superponera enaxligt i flera riktningar
+$$
+\begin{aligned}
+\varepsilon_{x}&=\frac{1}{E}[\sigma_{x}-\nu \sigma_{y}-\nu \sigma_{z}] +\alpha \Delta T \\
+\varepsilon_{y}&=\frac{1}{E}[-\nu\sigma_{x}+ \sigma_{y}-\nu \sigma_{z}] +\alpha \Delta T \\
+\varepsilon_{x}&=\frac{1}{E}[-\nu\sigma_{x}-\nu \sigma_{y}+ \sigma_{z}] +\alpha \Delta T
+\end{aligned}
+$$
+samt
+$$
+\gamma_{xy}=\frac{\tau_{xy}}{G}, \quad \gamma_{xz}=\frac{\tau_{xz}}{G}, \quad \gamma_{yz}=\frac{\tau_{yz}}{G}.
+$$
+
+
 
 
 
