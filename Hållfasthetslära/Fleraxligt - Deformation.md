@@ -45,8 +45,10 @@ $$
 $$
 ## Mohrs töjningscirkel
 
-
-
+![[Pasted image 20260323093423.png|426]]
+Plottar alla punkter $(\varepsilon_{x}, \frac{\gamma_{xy}}{2})$ ritas i ett $\varepsilon, \frac{\gamma}{2}$-plan. I den gäller att 
+- Radien $R$ $\to$ $R=\sqrt{ \left( \frac{\varepsilon_{x}-\varepsilon_{y}}{2} \right)^2 +\left( \frac{\gamma_{xy}}{2} \right)^2}$
+- Tillståndet i k
 
 
 
