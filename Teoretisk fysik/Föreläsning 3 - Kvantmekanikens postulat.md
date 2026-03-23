@@ -57,7 +57,7 @@ $$
 Som vi kan använda för att: 
 Skriva operator i basen: 
 $$
-\hat{A} = \hat{I}\hat{A}\hat{I} = \sum_{mn} \ket{m} \langle m | \hat{A} | n \rangle \bra{n} =\sum_{mn} = A_{mn} \ket{m} \bra{n} 
+\hat{A} = \hat{I}\hat{A}\hat{I} = \sum_{m,n} \ket{m} \langle m | \hat{A} | n \rangle \bra{n} =\sum_{m,n} = A_{mn} \ket{m} \bra{n} 
 $$
 Norm av vektor
 $$
