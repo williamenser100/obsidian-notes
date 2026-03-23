@@ -42,15 +42,15 @@ Sats: För egenvärdesproblemet $\hat{A}\ket{\Psi_{n}} = a_{n}\ket{\Psi_{n}}$ f�
 
 Att operatorerna är Hermitska visas enkelt med partiell integration i $\langle \Psi_{1} | \hat{x} | \Psi_{2} \rangle$ samt $\langle \Psi_{1} | \hat{p} | \Psi_{2} \rangle$ under antagandet $\Psi \to 0$ då $x \to \infty$.
 ## Fullständighet
-ON-bas $\ket{\Psi_{n}}=\ket{n}$ (beteckning). Alltså
+ON-bas $\ket{\Psi_{n}}=\ket{n}$ (beteckning). Alltså kan vi för varje $\ket{\Psi}$ skriva
 $$
-\ket{\Psi} =\sum_{n}c_{n}\ket{\Psi}= \sum_{n}c_{n}\ket{n}.
+\ket{\Psi} =\sum_{n}c_{n}\ket{\Psi_{n}}= \sum_{n}c_{n}\ket{n}.
 $$
 Koefficienten $c_{n}$ ges av
 $$
 \langle n | \Psi \rangle = \sum_{n} c_{n} \underbrace{\langle n | m \rangle}_{=\delta_{mn}} = c_{n} \implies \ket{\Psi} =\sum_{n} \ket{n} \langle n | \Psi \rangle.
 $$
-Projektionsoperatorn $\hat{p}=\ket{n}\bra{n}$, identitetsoperatorn ges som fullständighetsrelationen
+Där vi infört projektionsoperatorn $\hat{p}=\ket{n}\bra{n}$, identitetsoperatorn ges som fullständighetsrelationen
 $$
 \hat{I}=\sum_{n}\ket{n}\bra{n}
 $$
@@ -70,7 +70,7 @@ m.m
 
 En observabel är antingen bestämd eller osäker:
 - Om tillståndet är ett egentillstånd till en observabel $A$, t.ex $\ket{\Psi}=1$ med egenvärde $a_{1}$, så ger en mätning av $A$ svaret $a_{1}$ med sannolikhete $|c_{n}|^2=1$ och $A$ kallas bestämd.
-- I superposition med ickedegenererade egenvärden t.ex $\ket{\Psi}=c_{1}\ket{1} + x_{2}\ket{2}$ med $a_{1} \neq a_{2}$ är inte ett egentillstånd och observabeln blir därför osäker. En mätning av $A$ ger svaret $a_{1}$
+- I superposition med ickedegenererade egenvärden t.ex $\ket{\Psi}=c_{1}\ket{1} + x_{2}\ket{2}$ med $a_{1} \neq a_{2}$ är inte ett egentillstånd och observabeln blir därför osäker. En mätning av $A$ ger svaret $a_{1}$ med sannolikhet $|c_1|^2$ och $a_{2}$ med sannolikhet $|c_{2}|^2$.
 
 >[!Postulat 4]
 >Tillståndsvektorn $\ket{\Psi(t)}$ uppfyller SE: $\hat{H}\ket{\Psi(t)}=i\hbar \frac{d}{dt} \ket{\Psi(t)}$.
