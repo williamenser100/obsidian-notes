@@ -48,6 +48,9 @@ där $\underset{\sim}{n}$ är den okända normalspänningsvektorn som vill hitta
 - Två huvudspänningar är lika $\to$ Cylindriskt spänningstillstånd.
 - Alla tre huvudspänningar like $\to$ Hydrostatiskt eller sfäriskt spänningstillstånd (t.ex vätsketryck).
 
+## Mohrs spänningscirkel
+
+![[Pasted image 20260323130119.png]]
 
 
 
