@@ -66,12 +66,16 @@ $$
 m.m
 
 >[!Postulat 3]
->Mätningar av $A$ : $\ket{\Psi}$ ger ett slumpmässigt egenvärde $a_{n}$ till $\hat{A}$ som svar, med sannolikhet $|c_{n}|^2$ där $\ket{\Psi}=\sum_{n}c_{n}\ket{n}$, $\hat{A}\ket{n}=a_{n}\ket{n}$. Mätningar ändrar tillståndet (kollapsar, reducerar, projicerar) till motsvarande egentillstånd $\ket{n}$.
+>Resultatet av en mätning av en observabel $A$ i tillståndet $\ket{\Psi}$ är ett slumpmässigt egenvärde $a_{n}$ till $\hat{A}$ som fås med sannolikhet $|c_{n}|^2=|\langle\Psi_{n}  | \Psi \rangle|$ där . Mätningar ändrar systemets tillstånd till motsvarande egentillstånd $\ket{\Psi}\to \ket{\Psi_{n}}$, vilket kallas att tillståndet kollappsar eller reduceras.
 
 En observabel är antingen bestämd eller osäker:
-- I ett egentillstånd är $A$ bestämd : $\hat{A}\ket{n}=a_{n}\ket{n}$. En mätning av $A$ ger svaret $A$ 
-- I superposition $\ket{\Psi}=\sum_{n}c_{n}\ket{n}$ blir A osäker.
+- Om tillståndet är ett egentillstånd till en observabel $A$, t.ex $\ket{\Psi}=1$ med egenvärde $a_{1}$, så ger en mätning av $A$ svaret $a_{1}$ med sannolikhete $|c_{n}|^2=1$ och $A$ kallas bestämd.
+- I superposition med ickedegenererade egenvärden t.ex $\ket{\Psi}=c_{1}\ket{1} + x_{2}\ket{2}$ med $a_{1} \neq a_{2}$ är inte ett egentillstånd och observabeln blir därför osäker. En mätning av $A$ ger svaret $a_{1}$
 
+>[!Postulat 4]
+>Tillståndsvektorn $\ket{\Psi(t)}$ uppfyller SE: $\hat{H}\ket{\Psi(t)}=i\hbar \frac{d}{dt} \ket{\Psi(t)}$.
+
+Betyder att tidsutvecklingen är deterministiskt, så länge mätningar inte görs.
 
 
 
