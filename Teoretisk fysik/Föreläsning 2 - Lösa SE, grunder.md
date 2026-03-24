@@ -34,21 +34,22 @@ Medelvärden kallas väntevärden:
 $$
 \langle x \rangle = \int_{-\infty}^{\infty} \Psi ^* \hat{p} \Psi dx, \quad \langle H \rangle = \int_{-\infty}^{\infty} \Psi ^* \hat{H} \Psi dx
 $$
-
-^aa83e6
+^Vantevarde
 
 Standardavvikelsen kallas osäkerheten:
 $$
 \Delta x = \sqrt{ \langle x^2 \rangle - \langle x \rangle ^2 }, \quad \Delta p = \sqrt{ \langle p^2 \rangle - \langle p \rangle ^2} = \int_{-\infty}^{\infty} \Psi ^* \hat{p}^2 \Psi dx.
 $$
+^Standardavvikelse
 
-^2143b0
+
 Osäkerhetsprincip $\Delta x \Delta p  \ge \frac{\hbar}{2}$, utesluter klassiska exakta banor.
 #### Ehrenfests teorem
 Väntevärdena rör sig klassiskt: 
 $$
 \langle p \rangle = m \frac{d\langle x \rangle }{dt}
 $$
+^Ehrenfest
 som motsvarar det klassiska $p=mv$.
 $$
 \frac{d\langle p \rangle}{dt} = \left\langle  - \frac{\partial V}{\partial x} \right\rangle 
@@ -68,6 +69,7 @@ Produktansats $\Psi(x,t)=\psi(x)e^{-i\omega t}$. Insatt ger tidsoberoende SE
 $$
 - \frac{\hbar^2}{2m} \frac{\partial^2\psi(x)}{\partial x^2} + V(x) \psi(x) = E\psi(x).
 $$
+^Tidsoberoende-SE
 $\hat{H} \psi = E\psi$ lösningar egenfunktioner $\psi_{n}(x)$ egenvärden $E_{n}$. Då blir 
 $$
 \Psi_{n}(x,t) = \psi_{n}(x) e^{-i\omega_{n}t}, \quad E_{n} = \hbar \omega _{n}.
@@ -95,4 +97,5 @@ Vi ska då lösa $\hat{H} \psi_{n} = E_{n}\psi_{n}$, det visar sig att vi får l
 $$
 \psi_{n} = \sqrt{ \frac{2}{L} } \sin{k_{n}x}, \quad k_{n} = \frac{n\pi}{L}, n = 0,1,\dots, \quad E_{n}=\frac{\hbar^2k_{n}^2}{2m}.
 $$
+^Losning-oandlig-ladpotential
 Där $\psi_{n}, \psi_{m}$ är ortogonala för alla $n,m$.

@@ -3,10 +3,12 @@ Superpositionsprincipen samt linjäriteten för SE ger att vågfunktionerna bild
 $$
 \Psi = \sum_{n} c_{n} \psi_{n}
 $$
+^superpositionsprincipen
 Vi kallar $\Psi$ för ketvektorer $\ket{\Psi}$  m.a.p en bas i Hilbertrummet. Definiera inre produkten av två vektorer
 $$
 \langle \Psi_{1} | \Psi_{2} \rangle = \int_{-\infty}^{\infty} \Psi_{1}^* \Psi_{2} \, dx = \langle \Psi_{2} | \Psi_{1} \rangle^*
 $$
+^Inre-produkt-hilbertrum
 samt normen $||\Psi||^2=\sqrt{\langle \Psi  | \Psi \rangle}$. $\bra{\Psi}$ kallas dual vektor eller bravektor.
 
 >[!Postulat 1]
@@ -22,6 +24,7 @@ Definition: Operatorn $\hat{A}$ är Hermitsk om
 $$
 \langle \Psi_{1} | \hat{A} \Psi_{2} \rangle = \langle \hat{A} \Psi_{1} | \Psi_{2} \rangle.
 $$
+^Hermitesk-operator
 Definition: Den adjungerade operatorn $\hat{A}^{\dagger}$ uppfyller
 $$
 \langle \hat{A}^{\dagger}\Psi_{1} | \Psi_{2} \rangle = \langle \Psi_{1} | \hat{A}\Psi_{2} \rangle.
