@@ -96,4 +96,3 @@ $$
 \psi_{n} = \sqrt{ \frac{2}{L} } \sin{k_{n}x}, \quad k_{n} = \frac{n\pi}{L}, n = 0,1,\dots, \quad E_{n}=\frac{\hbar^2k_{n}^2}{2m}.
 $$
 Där $\psi_{n}, \psi_{m}$ är ortogonala för alla $n,m$.
-
