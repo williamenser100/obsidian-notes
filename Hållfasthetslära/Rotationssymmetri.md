@@ -27,8 +27,13 @@ Konstitutivt samband:
 $$
 \varepsilon_{r}=\frac{1}{E}[\sigma_{r}-\nu\sigma_{\varphi}], \quad \varepsilon_{\varphi} = \frac{1}{E}[\sigma_{\varphi}-\nu \sigma_{r}].
 $$
+### Allmän lösning
 Vi får att allmänna lösningen (2D) för rotationssymmetriska tillstånd:
 $$
-\sigma_{r}=A-\frac{B}{r^2}, \quad \sigma_{\varphi}=A+\frac{B}{r^2}
+\sigma_{r}=A-\frac{B}{r^2}, \quad \sigma_{\varphi}=A+\frac{B}{r^2}, \quad u_{r} = \frac{r}{E}[\sigma_{\varphi}-\nu(\sigma_{r}-\sigma_{z})]
 $$
-Där konstanter $A$ och $B$ bestäms av randvillkor $\sigma_{r}$ eller $u_{r}$. 
+där konstanter $A$ och $B$ bestäms av randvillkor $\sigma_{r}$ eller $u_{r}$. Ovan lösning kan användas för att lösa:
+- Tunna skivor
+- Långa rör
+- Tjockväggiga tryckkärl
+- $\sigma_{z}$ bestäms av jämvikt i $z$-led.
