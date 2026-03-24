@@ -45,12 +45,13 @@ $$
 
 Osäkerhetsprincip $\Delta x \Delta p  \ge \frac{\hbar}{2}$, utesluter klassiska exakta banor.
 #### Ehrenfests teorem
+
 Väntevärdena rör sig klassiskt: 
 $$
 \langle p \rangle = m \frac{d\langle x \rangle }{dt}
 $$
-^Ehrenfest
-som motsvarar det klassiska $p=mv$.
+^ehrenfest
+som motsvarar det klassiska $p=mv$.  ^d7448f
 $$
 \frac{d\langle p \rangle}{dt} = \left\langle  - \frac{\partial V}{\partial x} \right\rangle 
 $$
