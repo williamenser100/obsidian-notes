@@ -15,3 +15,20 @@ $$
 $$
 Ovan beskriver huvudspänningstillstånd $\tau_{\varphi z}=0,\tau_{\varphi\theta}=0$.
 ## Rotationssymmetriska tillstånd
+Jämvikt:
+$$
+\frac{ \partial \sigma_{r} }{ \partial r } +\frac{\sigma_{r}-\sigma_{\varphi}}{r}=0 \implies \frac{ \partial (r\sigma_{r}) }{ \partial r }-\sigma_{\varphi} 
+$$
+Kompatibilitet: Förskjutningar $u_{r}(r)$ enbart i $r$-led.
+$$
+\varepsilon_{r}=\frac{ \partial u_{r} }{ \partial r } , \quad \varepsilon_{\varphi}=\frac{u_{r}}{r}.
+$$
+Konstitutivt samband:
+$$
+\varepsilon_{r}=\frac{1}{E}[\sigma_{r}-\nu\sigma_{\varphi}], \quad \varepsilon_{\varphi} = \frac{1}{E}[\sigma_{\varphi}-\nu \sigma_{r}].
+$$
+Vi får att allmänna lösningen (2D) för rotationssymmetriska tillstånd:
+$$
+\sigma_{r}=A-\frac{B}{r^2}, \quad \sigma_{\varphi}=A+\frac{B}{r^2}
+$$
+Där konstanter $A$ och $B$ bestäms av randvillkor $\sigma_{r}$ eller $u_{r}$. 
