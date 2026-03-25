@@ -22,7 +22,6 @@ p = i \sqrt{ \frac{m\omega \hbar}{2} }(a^{\dagger}-a)
 $$
 ^Stegoperator
 $a$ kallas sänkningsoperatorn $a^{\dagger}$ höjningsoperatorn.
-
 ## Kommutatorer
 Definiera kommutatorn mellan två operatorer $A,B$ som 
 $$
@@ -97,7 +96,6 @@ $$
 H_{0}=1,H_{1}=2\xi,H_{2}=4\xi^2-2,H_{3}=8\xi^3-12\xi\dots
 $$
 ## Klassiskt förbjudna områdena
-
 ## Varför viktigt?
 $a^{\dagger}, a$ kallas skapelse och förintelseoperatorer inom kvantfältteori.
 $$
