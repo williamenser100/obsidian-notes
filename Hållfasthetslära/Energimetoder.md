@@ -13,3 +13,11 @@ $$
 $$
 W_{e}=\int \underbrace{ \tau b t }_{ \text{kraft} } du = bth \int \tau d\gamma = V\int_{0}^\gamma G \gamma d\gamma = V \frac{1}{2} G \gamma^2.
 $$
+## Böjning/krökning av balk
+$$
+\varepsilon=Hz = -w''z, \quad \sigma=E\varepsilon = -Ew''z.
+$$
+Då blir 
+$$
+W_{e}=\int w_{e}dV = \int_{0}^L \left[ \frac{1}{2}  \right]
+$$
