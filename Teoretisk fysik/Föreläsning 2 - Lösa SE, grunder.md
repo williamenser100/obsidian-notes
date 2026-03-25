@@ -100,3 +100,4 @@ $$
 $$
 ^Losning-oandlig-ladpotential
 Där $\psi_{n}, \psi_{m}$ är ortogonala för alla $n,m$.
+[[Formelblad]]

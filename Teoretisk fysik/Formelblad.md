@@ -7,7 +7,7 @@ Standardavvikelse:
 ![[Föreläsning 2 - Lösa SE, grunder#^Standardavvikelse]]
 
 
-
+![[Föreläsning 2 - Lösa SE, grunder^vante]]
 
 ## Harmoniska oscillatorn
 - [[Föreläsning 4 - Harmoniska Oscillatorn]]
