@@ -73,6 +73,42 @@ $$
 E_{n}=\left( n+\frac{1}{2} \right)\hbar \omega, \quad n=0,1,2,3,\dots.
 $$
 ^Energiniva
-Vi kommer även få 
+Vi kommer även få (med normering) att 
+$$
+\psi_{0}(x)=\left( \frac{m\omega}{\pi \hbar} \right)^{1/4}e^{-m\omega x^2/2\hbar}.
+$$
+Vi söker de exciterade tillstånden. $\psi_{n} \propto(a^{\dagger})^n\psi_{0}$. $\ket{n}=\ket{\psi_{n}}$. Vi normerar så att
+$$
+ \text{Sök A: } a\psi_{n}=A\psi_{n-1}
+$$
+$$
+\langle n | a^{\dagger}a | n \rangle=\langle a\psi_{n} | a\psi_{n} \rangle = |A|^2\langle n-1 | n-1 \rangle = |A|^2 \implies a\ket{n} =\sqrt{ n }\ket{n-1}. 
+$$
+Vidare blir
+$$
+a^{\dagger}\ket{n} =\sqrt{ n+1 }\ket{n+1}. 
+$$
+Vi kommer få ett allmäna formeln för exciterade tillstånden
+$$
+\psi_{n}(x) = \left( \frac{m\omega}{\pi \hbar} \right)^{1/4} \frac{1}{\sqrt{ 2^nn! }}H_{n}(\xi)e^{-\xi^2/2}
+$$
+där $\xi^2=\frac{m\omega}{\hbar}x^2$ och Hermitepolynomen
+$$
+H_{0}=1,H_{1}=2\xi,H_{2}=4\xi^2-2,H_{3}=8\xi^3-12\xi\dots
+$$
+## Klassiskt förbjudna områdena
+
+## Varför viktigt?
+$a^{\dagger}, a$ kallas skapelse och förintelseoperatorer inom kvantfältteori.
+$$
+u=\frac{E}{V}=\frac{1}{2}\varepsilon_{0}\varepsilon^2+\frac{1}{2\mu_{0} }B^2.
+$$
+
+
+
+
+
+
+
 
 
