@@ -50,4 +50,29 @@ $$
 $$
 [H,a^{\dagger}]=h\omega a^{\dagger}, \quad [H,a]=-\hbar \omega a.
 $$
+## Energinivåer
+Antag att $\psi$ är en egenfunktion med energiegenvärde $E: H\psi=E\psi$. Då blir 
+$$
+Ha\psi = (E-\hbar \omega)a\psi \implies a\psi \text{ lösning med energi }E-\hbar \omega.
+$$
+$$
+Ha^{\dagger}\psi = (E+\hbar \omega)a^{\dagger}\psi \implies a^{\dagger}\psi \text{ lösning med energi }E+\hbar \omega.
+$$
+Vi kan alltså om vi vet en lösning "stega" fram nya lösningar med energiskillnad $\hbar \omega$.
+Sats: Energin begränsas underifrån av potentialens minimum. $E \ge V_{min}$.
+$\implies$ Det måste finnas ett minsta energiegenvärde $E_{0}$ så att $a\psi_{0}=0$. $H\psi_{0}=E_{0}\psi_{0}$.
+$$
+H\psi_{0}= \hbar \omega\left( a^{\dagger}a+\frac{1}{2} \right) = \hbar \omega\left( s^{\dagger}\underbrace{ a\psi_{0} }_{ =0 }+\frac{1}{2}\psi_{0} \right)= \frac{\hbar \omega}{2}\psi_{0} = E\psi_{0}
+$$
+Alltså fås grundtillståndsenergin
+$$
+E_{0}=\frac{\hbar\omega}{2}.
+$$
+Genom att $n$ energikvanta $\hbar \omega$ adderas till grundtillståndsenergin fås den $n$:te exciterade energinivån:
+$$
+E_{n}=\left( n+\frac{1}{2} \right)\hbar \omega, \quad n=0,1,2,3,\dots.
+$$
+^Energiniva
+Vi kommer även få 
+
 
