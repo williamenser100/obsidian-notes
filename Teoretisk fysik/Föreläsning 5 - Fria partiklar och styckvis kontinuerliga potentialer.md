@@ -44,8 +44,46 @@ Med Fouriertransform:
 $$
 \implies \Psi(k) = \frac{1}{(2\pi a)^{1/4}}e^{-k^2/4a}
 $$
+#### Kontinuitetsvillkor på vågfunktionen
 Sats: Lösningar $\Psi$ till SE 
 $$
 -\frac{\hbar}{2m}\frac{ \partial^2 \Psi }{ \partial x^2 } + V \Psi = E\Psi 
 $$
 är kontinuerlig i alla punkter $x$ och $\frac{\partial\Psi}{\partial x}$ kontinuerlig utom i punkter där potentialen har ett oändligt steg.
+Ex:
+Delta funktionspotential $V(x)=-\alpha \delta(x)$ med Dirac delta funktion.
+
+För $x=0$ : $-\frac{\hbar}{2m}\frac{ \partial^2 \Psi }{ \partial x^2 } = E\Psi$. Sök bundna tillstånd: $E <V(x) : x=\pm \infty$ där $E<0$.
+Fall 1 : Spridningstillstånd : $E>0$
+$$
+\Psi'' = \frac{2m(-E)}{\hbar^2}\Psi = \kappa^2 \Psi, \quad \kappa^2 = \frac{2m(-E)}{\hbar^2}, \quad E=-\frac{\hbar \kappa^2}{2m}.
+$$
+$$
+\implies \Psi(x)=Ae^{-\kappa x}+Be^{\kappa x} \to 0 \text{ för } x \to \pm \infty 
+$$
+$$
+\Psi=\begin{dcases}
+Ae^{-\kappa x}, &x>0 \\
+Be^{\kappa x}, & x<0
+\end{dcases}
+$$
+RV $\implies A=B = \Psi(0)$ 
+$$
+\implies \Psi(x) = Ae^{-\kappa |x|}.
+$$
+Slutsats : oberoende av styrkan $\alpha$ finns exakt ett bundet tillstånd.
+## Tunnling, rektangulär potentialbarriär
+$$
+V(X) = \begin{dcases}
+V_{0} > 0, & |x|<a \\
+0, & |x|>a
+\end{dcases}
+$$
+$x<-a$:
+$$
+-\frac{\hbar}{2m}\frac{ \partial^2 \Psi }{ \partial x^2 } = E\Psi \implies \Psi'' = -\frac{2mE}{\hbar^2}\Psi = -k^2\Psi \implies \Psi=Ae^{ikx} + Be^{-ikx}.
+$$
+$|x|<a$:
+$$
+		-\frac{\hbar}{2m}\frac{ \partial^2 \Psi }{ \partial x^2 } + V_{0} \Psi = E\Psi \implies \Psi'' = \frac{2m}{}
+$$
