@@ -73,6 +73,7 @@ $$
 $$
 Slutsats : oberoende av styrkan $\alpha$ finns exakt ett bundet tillstånd.
 ## Tunnling, rektangulär potentialbarriär
+Där $0<E<V_{0}$:
 $$
 V(X) = \begin{dcases}
 V_{0} > 0, & |x|<a \\
@@ -85,5 +86,33 @@ $$
 $$
 $|x|<a$:
 $$
-		-\frac{\hbar}{2m}\frac{ \partial^2 \Psi }{ \partial x^2 } + V_{0} \Psi = E\Psi \implies \Psi'' = \frac{2m}{}
+		-\frac{\hbar}{2m}\frac{ \partial^2 \Psi }{ \partial x^2 } + V_{0} \Psi = E\Psi \implies \Psi'' = \frac{2m(V_{0}-E)}{\hbar^2}\Psi = \kappa^2\Psi
 $$
+$$
+\implies \Psi=Ce^{\kappa x}+De^{-\kappa x}
+$$
+$x>a$:
+$$
+\implies \Psi = Fe^{ikx} + 0 e^{-ikx} = Fe^{ikx} \text{ ty ingen inkommande stråle}.
+$$
+Kontinuitet i $x=\pm a$ alltså att $\Psi$ och $\Psi'$ är kontinuerliga i $\pm a$ ger fem obekanta men endast fyra ekvationer.
+Vill veta transmissions och reflektionssannolikhet.
+$$
+T = \left|\frac{F}{A}\right|^2
+= \frac{1}{1 + \frac{V_0^2}{4E(V_0 - E)}
+\sinh^2\!\left(
+\frac{2a}{\hbar}\sqrt{2m(V_0 - E)}
+\right)}
+$$
+Alltså kan partiklar transmitteras med sannolikhet som inte är noll för $E<V_{0}$!
+
+Om $E>V_{0}$ så blir liknande:
+$$
+T = \frac{1}{1+\frac{V_{0}^2}{4E(E-V_{0})}\sin^2\tilde{\kappa}L}.
+$$
+Vilket ger 
+$$
+T \sim e^{-2\kappa L}.
+$$
+
+
