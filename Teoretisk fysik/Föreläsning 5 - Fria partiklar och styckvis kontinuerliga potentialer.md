@@ -21,7 +21,31 @@ $$
 j=\frac{\hbar}{2mi}\left( \Psi^*\frac{ \partial \Psi }{ \partial x } -\Psi \frac{ \partial \Psi^* }{ \partial x }  \right) = \frac{\hbar k}{m}|\Psi|^2 =\frac{p}{m}|\Psi|^2.
 $$
 Motsvarar klassisk strömtäthet.
+## Vågpaket
 Plan våg modellerar partikelstråle = ström i $-\infty<x<\infty$.
-
-
-
+Plana vågor är icke normerbara ty
+$$
+\int_{-\infty}^{\infty} |\Psi|^2 \, dx =|A|^2\int_{-\infty}^{\infty} 1 \, dx = ??
+$$
+Fysikaliska tillstånd är normerbara i vågpaket
+$$
+\Psi(x,t=0)=\frac{1}{\sqrt{ 2\pi }}\int_{-\infty}^{\infty} \Psi(k)e^{ikx} \, dk,\quad \Psi(k) = \frac{1}{\sqrt{ 2\pi }} \int_{-\infty}^{\infty} \Psi(x,0)e^{-ikx} \, dx 
+$$
+(Finns ingen kvantisering för fria partiklar, endast för bundna partiklar)
+Tidsutvecklingen för vågpaketet blir då 
+$$
+\Psi(x,t) = \frac{1}{\sqrt{ 2\pi }} \int_{-\infty}^{\infty} \Psi(x)e^{i(kx-\omega t)} \, dk 
+$$
+## Gaussiska vågpaket
+$$
+\Psi(x,0)=\left( \frac{2a}{\pi} \right)^{1/4}e^{-ax^2}
+$$
+Med Fouriertransform:
+$$
+\implies \Psi(k) = \frac{1}{(2\pi a)^{1/4}}e^{-k^2/4a}
+$$
+Sats: Lösningar $\Psi$ till SE 
+$$
+-\frac{\hbar}{2m}\frac{ \partial^2 \Psi }{ \partial x^2 } + V \Psi = E\Psi 
+$$
+är kontinuerlig i alla punkter $x$ och $\frac{\partial\Psi}{\partial x}$ kontinuerlig utom i punkter där potentialen har ett oändligt steg.
