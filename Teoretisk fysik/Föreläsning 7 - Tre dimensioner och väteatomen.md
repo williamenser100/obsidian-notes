@@ -88,6 +88,7 @@ Förenkla med variabelsubstitution $u(r)=R(r)r$, ger
 $$
 -\frac{\hbar^2}{2m} \frac{d^2u}{dr^2} + \underbrace{ \left[ V(r) + \frac{\hbar^2}{2m} \frac{l(l+1)}{r^2} \right] }_{ =V_{eff} }u = Eu
 $$
+
 Vi söker bundna tillstånd $E<V(r=\infty) =0$ alltså atomära tillstånd där partikeln bunden till kärnan.
 Inför
 $$
