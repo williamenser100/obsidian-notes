@@ -107,8 +107,32 @@ $$
 \frac{d^2u}{d\rho^2} = \frac{l(l+1)}{\rho^2}u \implies u = C\rho^{l+1} + D\underbrace{  \rho^{-l}  }_{ \to \infty \implies D=0  }.
 $$
 $$
-\implies u = v(\rho) e^{-\rho}.
+\begin{align}
+\implies u &= v(\rho) e^{-\rho} \\
+\implies v''& -2v' + \frac{\rho_{0}}{\rho}v + \frac{l(l+1)}{\rho^2}v=0 \implies \text{potenserieansats} \\
+v&=\sum_{j=0}^\infty c_{j} \rho^{j+l+1} \implies c_{j+1} = \frac{2(j+l+1)-\rho_{0}}{(j+1)(j+2l+2)}c_{j}
+\end{align}
 $$
+Potensserie måste terminera till ändliga polynom $\implies \exists$ största värde $j=j_{\text{max}}$ så att $c_{j_{max}+1}=0$. Definiera $n=j_{max} + l + 1$ som vi kallar för **huvudkvanttalet**. Kvanttalen är då
+$$
+\begin{align}
+n&=1,2,3\dots \\
+l&=0,1,\dots,n-1 \\
+m&=0,\pm1, \pm 2, \dots
+\end{align}
+$$
+Samt får vi
+$$
+\rho_{0} = 2n = \frac{me^2}{2\pi\epsilon_{0}\hbar^2k} \implies k_{n} = \frac{me^2}{2\pi\epsilon_{0}\hbar^2 n} = \frac{1}{2n}
+$$
+där vi infört Bohrradien $a$
+$$
+a = \frac{4\pi\epsilon_{0}\hbar^2}{me^2} = 0.529 \text{ Å}.
+$$
+$$
+E_{n} = \frac{E_{1}}{n^2}, n=1,2,3,\dots, \quad E_{1} = -\frac{m}{2\hbar^2} \left( \frac{e^2}{4\pi\epsilon_{0}} \right)^2 = -13.6 \text{ eV}.
+$$
+
 
 
 
