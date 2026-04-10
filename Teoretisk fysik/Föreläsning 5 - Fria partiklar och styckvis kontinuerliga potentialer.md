@@ -34,13 +34,13 @@ $$
 (Finns ingen kvantisering för fria partiklar, endast för bundna partiklar)
 Tidsutvecklingen för vågpaketet blir då 
 $$
-\Psi(x,t) = \frac{1}{\sqrt{ 2\pi }} \int_{-\infty}^{\infty} \Psi(x)e^{i(kx-\omega t)} \, dk 
+\Psi(x,t) = \frac{1}{\sqrt{ 2\pi }} \int_{-\infty}^{\infty} \Psi(k)e^{i(kx-\omega t)} \, dk 
 $$
 ## Gaussiska vågpaket
 $$
 \Psi(x,0)=\left( \frac{2a}{\pi} \right)^{1/4}e^{-ax^2}
 $$
-Med Fouriertransform:
+ Med Fouriertransform:
 $$
 \implies \Psi(k) = \frac{1}{(2\pi a)^{1/4}}e^{-k^2/4a}
 $$
