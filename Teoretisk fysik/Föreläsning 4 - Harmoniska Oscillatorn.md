@@ -39,7 +39,7 @@ Position och rörelsemängd:
 $$
 [x,p]\psi=xp\psi-px\psi=xp\psi-xp\psi+i\hbar\psi \implies[x,p]=i\hbar.
 $$
-Vi kan även skriva
+Vi kan även skriva då $N \equiv a^{\dagger}a$ (efter härledning, se föreläsningsanteckningar)
 $$
 H = \left( a^{\dagger}a+\frac{1}{2} \right)\hbar \omega=\left( N+\frac{1}{2} \right)\hbar \omega.
 $$
@@ -50,7 +50,7 @@ $$
 [H,a^{\dagger}]=h\omega a^{\dagger}, \quad [H,a]=-\hbar \omega a.
 $$
 ## Energinivåer
-Antag att $\psi$ är en egenfunktion med energiegenvärde $E: H\psi=E\psi$. Då blir 
+Antag att $\psi$ är en egenfunktion med energiegenvärde $E: H\psi=E\psi$. Då blir (härleds enkelt mha kommutatorn)
 $$
 Ha\psi = (E-\hbar \omega)a\psi \implies a\psi \text{ lösning med energi }E-\hbar \omega.
 $$

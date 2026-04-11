@@ -51,7 +51,7 @@ $$
 \langle p \rangle = m \frac{d\langle x \rangle }{dt}
 $$
 ^ehrenfest
-som motsvarar det klassiska $p=mv$.  ^d7448f
+som motsvarar det klassiska $p=mv$. 
 $$
 \frac{d\langle p \rangle}{dt} = \left\langle  - \frac{\partial V}{\partial x} \right\rangle 
 $$

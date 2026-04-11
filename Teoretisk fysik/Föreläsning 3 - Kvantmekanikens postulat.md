@@ -69,10 +69,10 @@ $$
 m.m
 
 >[!Postulat 3]
->Resultatet av en mätning av en observabel $A$ i tillståndet $\ket{\Psi}$ är ett slumpmässigt egenvärde $a_{n}$ till $\hat{A}$ som fås med sannolikhet $|c_{n}|^2=|\langle\Psi_{n}  | \Psi \rangle|$ där . Mätningar ändrar systemets tillstånd till motsvarande egentillstånd $\ket{\Psi}\to \ket{\Psi_{n}}$, vilket kallas att tillståndet kollappsar eller reduceras.
+>Resultatet av en mätning av en observabel $A$ i tillståndet $\ket{\Psi}$ är ett slumpmässigt egenvärde $a_{n}$ till $\hat{A}$ som fås med sannolikhet $|c_{n}|^2=|\langle\Psi_{n}  | \Psi \rangle|$ där . Mätningar ändrar systemets tillstånd till motsvarande egentillstånd $\ket{\Psi}\to \ket{\Psi_{n}}$, vilket kallas att tillståndet kollapsar eller reduceras.
 
 En observabel är antingen bestämd eller osäker:
-- Om tillståndet är ett egentillstånd till en observabel $A$, t.ex $\ket{\Psi}=1$ med egenvärde $a_{1}$, så ger en mätning av $A$ svaret $a_{1}$ med sannolikhete $|c_{n}|^2=1$ och $A$ kallas bestämd.
+- Om tillståndet är ett egentillstånd till en observabel $A$, t.ex $\ket{\Psi}=1$ med egenvärde $a_{1}$, så ger en mätning av $A$ svaret $a_{1}$ med sannolikheten $|c_{n}|^2=1$ och $A$ kallas bestämd.
 - I superposition med ickedegenererade egenvärden t.ex $\ket{\Psi}=c_{1}\ket{1} + x_{2}\ket{2}$ med $a_{1} \neq a_{2}$ är inte ett egentillstånd och observabeln blir därför osäker. En mätning av $A$ ger svaret $a_{1}$ med sannolikhet $|c_1|^2$ och $a_{2}$ med sannolikhet $|c_{2}|^2$.
 
 >[!Postulat 4]
