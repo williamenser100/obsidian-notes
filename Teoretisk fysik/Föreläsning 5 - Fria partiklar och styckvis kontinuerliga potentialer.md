@@ -27,7 +27,7 @@ Plana vågor är icke normerbara ty
 $$
 \int_{-\infty}^{\infty} |\Psi|^2 \, dx =|A|^2\int_{-\infty}^{\infty} 1 \, dx = ??
 $$
-Fysikaliska tillstånd är normerbara i vågpaket
+Men de plana vågorna är egenfunktioner till observabler och utgör bas för Hilbertrummet, vi kan dock beskriva fysikaliska normerbara tillstånd som superpositioner som kallas vågpaket. $k$ är kontinuerlig och därför är superpositionen en Fourierintegral över alla $k$-värden.
 $$
 \Psi(x,t=0)=\frac{1}{\sqrt{ 2\pi }}\int_{-\infty}^{\infty} \Psi(k)e^{ikx} \, dk,\quad \Psi(k) = \frac{1}{\sqrt{ 2\pi }} \int_{-\infty}^{\infty} \Psi(x,0)e^{-ikx} \, dx 
 $$
