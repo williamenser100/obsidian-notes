@@ -42,3 +42,40 @@ $$
 \langle x | x' \rangle = \delta(x-x').
 $$
 ## Delta funktionsnormering
+Vi vill normera plana vågorna $=$ rörelsemängdsegenfunktionerna 
+$$
+\langle x | p \rangle = \Psi_{p}(x) = Ae^{i px/\hbar}
+$$
+s.a 
+$$
+\langle p | p' \rangle = \delta(p-p').
+$$
+Görs med Fouriertransform
+$$
+\Psi(x) = \frac{1}{\sqrt{ 2\pi }} \int_{-\infty}^{\infty} e^{ikx} \Psi(k) \, dk = \int_{-\infty}^{\infty} \left[ \frac{1}{2\pi} \int_{-\infty}^{\infty} e^{ik(x-y)} \, dk  \right]\Psi(y) \, dy  = \int_{-\infty}^{\infty} \delta(x-y)\Psi(y) \, dy  
+$$
+alltså kan vi skriva 
+$$
+\delta(x) = \frac{1}{2\pi} \int_{-\infty}^{\infty} e^{\pm ikx} \, dk, \quad  \delta(k) = \frac{1}{2\pi} \int_{-\infty}^{\infty} e^{\pm ikx} \, dx
+$$
+ger 
+$$
+\langle p | p' \rangle = \int_{-\infty}^{\infty} \langle p | x \rangle \langle x | p' \rangle  \, dx = |A|^2 \int_{-\infty}^{\infty} e^{i(p-p')x/\hbar} \, dx = |A|^22\pi \hbar \delta(p-p').
+$$
+Alltså får vi deltafunktionsnormeringen till
+$$
+\Psi_p(x) = \langle x | p \rangle = \frac{1}{\sqrt{ 2\pi \hbar }}e^{i p x/\hbar}.
+$$
+## Gemensamma egenfunktioner
+Sats: Två Hermitska operatorer $A,B$ med ickedegenererade egenevärden har samma egenvärden om och endast om de kommuterar. $[A,B] = AB-AB=0$.
+## Allmänna osäkerhetsrelationen 
+$$
+\Delta A \Delta B \ge \frac{1}{2} |\langle [A,B] \rangle|
+$$
+Om $[A,B]=0$ så är $A$ och $B$ kompatibla och $A$ och $B$ kan var samtidigt bestämda i ett gemensamt egentillstånd. 
+Om $[A,B] \ne 0$ så är $A$ och $B$ inkompatibla och $A$ och $B$ kan inte var samtidigt bestämda.
+Energins osäkerhet 
+$$
+\Delta x\Delta E \ge \frac{\hbar}{2m}|\langle p \rangle|
+$$
+
