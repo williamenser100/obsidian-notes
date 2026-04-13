@@ -82,9 +82,55 @@ Givet ett värde på $m$ så fås en stege av nya egenvärden, följden måste t
 $$
 \begin{align}
 \langle ml | L^2 | ml \rangle = l(l+1)\hbar^2 = \langle L_{x}^2  \rangle + \langle L_{y}^2  \rangle +\langle L_{z}^2  \rangle \\
-\langle L_{x}^2  \rangle = \langle ml | L_{x}^2 | ml \rangle = \langle L_{x}\psi_{ml} &  |  \rangle
+\langle L_{x}^2  \rangle = \langle ml | L_{x}^2 | ml \rangle = \langle L_{x}\psi_{ml} | L_{x}\psi_{ml} \rangle \geq 0.
 \end{align}
 $$
+Alltså finns $m_{max}>m_{min}$ s.a $L_{+}\ket{lm_{max}} =0$, $L_{-}\ket{lm_{min}} = 0$.
+Ny identitet:
+$$
+L_{+}L_{-} = (L_{x}+iL_{y})(L_{x}-iL_{y}) = L_{x}^2 + L_{y}^2 - i\underbrace{ (L_{x}L_{y}-L_{y}L_{x}) }_{ =i\hbar L_{z} } = L^2-L_{z}^2 + \hbar L_{z}
+$$
+$$
+L_{-}L_{+} = L^2 - L_{z} -\hbar L_{z}
+$$
+$$
+\begin{align}
+L_{-}L_{+} \ket{lm_{max}} = 0 = (L^2 - L_{z} -\hbar L_{z})\ket{lm_{max}} = (l(l+1)-m_{max}(m_{max}+1))\hbar^2\ket{lm_{max}} \\
+  \implies m_{max}=l. 
+\end{align}
+$$
+På samma sätt:
+$$
+m_{min}=-l
+$$
+$$
+\implies m_{max}-m_{min}=2l = \text{heltal eftersom m tar heltalssteg}
+$$
+Alltså blir $l$ halvtaligt 
+$$
+l = 0, \frac{1}{2} , 1, \frac{3}{2},\dots, \quad m=-l, \dots ,l
+$$
+Vi får alltså nya halvtaliga $l$-värden, $l=\frac{1}{2}, m=\pm \frac{1}{2}$ blir elektronspinn.
+Normering:
+$$
+L_{+}\ket{lm} = A_{+}\ket{l,m+1} \text{ antag normerade ketar}
+$$
+$$
+\begin{align}
+\langle lm | L_{+}L_{+} | lm \rangle = \langle L_{-}^{\dagger}\psi_{lm} | L_{+}\psi_{lm} \rangle = |A_{+}|^2= \langle L^2-L_{z}^2 -\hbar L_{z} \rangle = \{ \cdots\}  \\
+L_{\pm}\ket{lm} = \sqrt{ l(l+1)-m(m\pm 1) }\hbar \ket{l, (m\pm 1)} 
+\end{align}
+$$
+I $\ket{lm}$ är $L_{z}$ bestämd till $m\hbar$. Men
+$$
+\Delta L_{x} \Delta L_{y}  \ge \frac{1}{2}[\langle [L_{x}, L_{y}]  \rangle] = \frac{1}{2} m\hbar^2 \implies L_{x},L_{y} \text{ osäkra}.
+$$
+
+
+
+
+
+
 
 
 
