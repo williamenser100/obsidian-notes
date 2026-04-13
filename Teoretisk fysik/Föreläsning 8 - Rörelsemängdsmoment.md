@@ -54,10 +54,40 @@ $$
 $$
 $$
 \begin{align}
-[L^2, L_{z}] = [L_{x}^2, L_{z}] + [L_{y}^2, L_{z}] + [L_{z}^2, L_{z}] =  \\
-
+[L^2, L_{z}] &= [L_{x}^2, L_{z}] + [L_{y}^2, L_{z}] + [L_{z}^2, L_{z}] = \{\dots\} =0 \\
+\implies [L^2, L_{x}]&=[L^2, L_{y}]=[L^2, L_{y}]=0
 \end{align}
 $$
+Alltså är $L_{x},L_{y},L_{z}$ kommuterar inte(inkompatibbla) alltså har de olika egenvektorer. $L_{x}, L_{y},L_{z}$ kommuterar dock med $L^2 \implies$ t.ex $L^2, L_{z}$ har **samma** egenvektorer. Vi studerar egenvärdesproblemet för $L^2$ och $L_{z}$. 
+$$
+L^2\ket{lm} = l(l+1)\ket{lm} , \quad L_{z}\ket{lm} =m\hbar \ket{lm}. 
+$$
+Lös $l,m$ med stegoperatorer som vi definierar enligt
+$$
+L_{+} = L_{x} + iL_{y},\quad L_{-} = L_{x} -iL_{y} = L_{+}^{\dagger}
+$$
+Kommutatorerna blir:
+$$
+[L_z, L_\pm] = \pm \hbar L_\pm, \quad [L^2, L_\pm] = 0.
+$$
+$$
+L^2 L_{\pm} \ket{lm} = L_{\pm}L^2\ket{lm} =l(l+1)\hbar^2L_{\pm}\ket{lm}. 
+$$
+Slutsats: $L_{\pm}\ket{lm}$ är nya egenvektorer till $L^2$ med samma egenvärde $l(l+1)\hbar^2$.
+$$
+L_{z}L_{\pm}\ket{lm} = L_{\pm}\underbrace{ L_{z}\ket{lm} }_{ m\hbar \ket{lm}  }\pm\hbar L_{\pm}\ket{lm} = (m\pm1)\hbar L_{\pm}\ket{lm} 
+$$
+Slutsats: ger nya egenevektorer med syegade egenvärden $(m\pm 1)\hbar$.
+Givet ett värde på $m$ så fås en stege av nya egenvärden, följden måste terminera, annars fårs otiklåtna egenvärden med $m^2 > l(l+1)$.
+$$
+\begin{align}
+\langle ml | L^2 | ml \rangle = l(l+1)\hbar^2 = \langle L_{x}^2  \rangle + \langle L_{y}^2  \rangle +\langle L_{z}^2  \rangle \\
+\langle L_{x}^2  \rangle = \langle ml | L_{x}^2 | ml \rangle = \langle L_{x}\psi_{ml} &  |  \rangle
+\end{align}
+$$
+
+
+
 
 
 
