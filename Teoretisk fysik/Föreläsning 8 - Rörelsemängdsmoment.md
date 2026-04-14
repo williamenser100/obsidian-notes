@@ -58,7 +58,7 @@ $$
 \implies [L^2, L_{x}]&=[L^2, L_{y}]=[L^2, L_{y}]=0
 \end{align}
 $$
-Alltså är $L_{x},L_{y},L_{z}$ kommuterar inte(inkompatibbla) alltså har de olika egenvektorer. $L_{x}, L_{y},L_{z}$ kommuterar dock med $L^2 \implies$ t.ex $L^2, L_{z}$ har **samma** egenvektorer. Vi studerar egenvärdesproblemet för $L^2$ och $L_{z}$. 
+Alltså kommuterar $L_{x},L_{y},L_{z}$ inte(inkompatibla) alltså har de olika egenvektorer. $L_{x}, L_{y},L_{z}$ kommuterar dock med $L^2 \implies$ t.ex $L^2, L_{z}$ har **samma** egenvektorer. Vi studerar egenvärdesproblemet för $L^2$ och $L_{z}$. 
 $$
 L^2\ket{lm} = l(l+1)\ket{lm} , \quad L_{z}\ket{lm} =m\hbar \ket{lm}. 
 $$
