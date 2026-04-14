@@ -47,7 +47,10 @@ $$
 &= \text{konstant} = l(l+1)
 \end{align}
 $$
-
+$$
+\frac{1}{R}\frac{d}{dr}\left(r^2\frac{dR}{dr}\right)
+- \frac{2mr^2}{\hbar^2}[V(r)-E] = l(l+1)
+$$
 ## Banrörelse
 Den vinkelberoende delen av rörelsen kallas banrörelsen:
 $$
@@ -70,7 +73,7 @@ Normerade så att
 $$
 \int_{0}^{2\pi} \int_{0}^\pi [Y_{l'}^{m'}]Y_{l}^m \sin\theta d\theta d\phi = \delta_{ll'}\delta_{mm'}.
 $$
-Allmänng lösning
+Allmän lösning
 $$
 Y(\theta, \phi) = \sum_{lm} c_{lm} Y_{l}^m
 .$$
