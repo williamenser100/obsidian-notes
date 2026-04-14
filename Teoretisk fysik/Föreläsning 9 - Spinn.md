@@ -181,12 +181,17 @@ $$
 **Neutron**:
 
 
-
-
-
-
-
-
+## Addition av två spinn $\frac{1}{2}$
+Produktlag
+$$
+\ket{sm_{1}} \otimes \ket{sm_{2}} =\ket{s_{1}s_{2}m_{1}m_{2}} = \uparrow \downarrow, \downarrow \uparrow, \uparrow \downarrow, \downarrow \downarrow.
+$$
+4-dimensionellt rum.
+Det totala spinnet
+$$
+\mathbf{S} = \mathbf{S}_{1}+\mathbf{S}_{2}
+$$
+Observabel $\implies$ genererar egenvektorer, bildar ny bas : **kopplad bas**. $\ket{sm}$
 
 
 
