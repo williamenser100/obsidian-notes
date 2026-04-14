@@ -78,4 +78,12 @@ Energins osäkerhet
 $$
 \Delta x\Delta E \ge \frac{\hbar}{2m}|\langle p \rangle|
 $$
+## Momentum space wave function
+$$
+\Phi(p,t)= \frac{1}{\sqrt{ 2\pi \hbar }} \int_{-\infty}^{\infty} e^{-i p x /\hbar} \Psi(x,t)\, dx 
+$$
+$$
+\Psi(x,t) = \frac{1}{\sqrt{ 2\pi \hbar }} \int_{-\infty}^{\infty} e^{i px/\hbar} \Phi(p,t)\, dp 
+$$
+
 
