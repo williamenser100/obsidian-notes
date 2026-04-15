@@ -16,7 +16,7 @@ $$
 $$
 [S_{x},S_{y}] = i\hbar S_{z}, \quad [S^2, S_{z}] = 0
 $$
-Spinntillstånd: spinorer $\ket{\chi}$
+Spinntillståndet beskrivs av spinorer $\ket{\chi}$
 Egenvektorer
 $$
 \hat{S}\ket{sm} = s(s+1)\hbar^2\ket{sm}, \quad \hat{S}_{z}\ket{sm} = m\hbar \ket{sm}. 
