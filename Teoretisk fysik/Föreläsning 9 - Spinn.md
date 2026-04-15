@@ -156,6 +156,7 @@ $$
 \hat{S}_{y}\uparrow = i\frac{\hbar}{2} \downarrow, \quad \hat{S}_{x}\downarrow = i\frac{\hbar}{2} \uparrow
 $$
 ## Pålagt magnetfält
+Magnetiska dipolmomentet $\boldsymbol{\mu}$
 $$
 \boldsymbol{\mu} = \frac{gq}{2m}\mathbf{S}
 $$
