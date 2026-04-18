@@ -69,6 +69,11 @@ Spänningskoncentrationsfaktorn uppstår pga lokal geometri vid inåtgående hö
 	- Böj - $\sigma_{ub}$, $\sigma_{ubp}$
 	- Vrid - $\tau_{uv}$, $\tau_{uvp}$
 	Samt $\sigma_{b}=R$, $\sigma_{s}$, $\tau_{b}=\sigma_{b}/2$.
-2. 
+2. Bestäm samtliga reduktioner 
+	$\lambda$ , $K_{d}$ , $K_{r}$, $K_{f}$.
+3. Rita och reducera Haigh-diagrammet
+4. Rita in aktuellt lastfall, t.ex arbetspunkt ($\sigma_{a}$, $\sigma_{m}$) om kända, eller arbetslinje.
+5. Säkerhetsfaktor $n \geq 0$, fås av hur många gånger man kan öka nivån innan man stöter på gränser i Haigh-diagram. Kan mätas/ skattas som kvot av längder i Haigh diagrammet om man ritar skalenligt på rutigt papper!
+6. Avläs vilka tillåtna och max nivåer som gäller ($\sigma_{a}$, $\sigma_{m}$).
 
 
