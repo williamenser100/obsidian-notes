@@ -42,12 +42,33 @@ där $\lambda$ - teknologiskt volymsberoende, $K_{d}$ - geometriskt volymsberoen
 ### $\lambda$ - Teknologiskt volymsberoende
 Gäller endast gjutna produkter, annars $\lambda=1$. Beror av brottsgränsen $\sigma_{b}=R_{m}$.
 ### $1/K_{d}$ - Geometriskt volymsberoende
-Vid spänningsgradienter 
-
+Vid spänningsgradienter vid t.ex böjning och vridning. Beror på 
+- Material dimension
+- Materialets brottgräns $\sigma_{b}=R$.
 ### $1/K_{r}$ - Ytbeskaffenhet
-
+Beskrivs mha medelytavvikelse $R_{a}$. Ojämn yta $\implies$ högra $R_{a}$ värde betyder fler defekter/ ojämnheter vilket reducerar utmattninsgränsen. beror av 
+- $R_{a}$ värdet
+- Materialets brottgräns
 ### $1/K_{f}$ - Anvisningsverkan
+Spänningskoncentration pga geometriändring, hål spår, m.m. Där har man med spänningskoncentrationsfaktorn $K_{t}$
+$$
+\sigma_{max} = K_{t}\ \sigma_{\text{nom}}. 
+$$
+Lokal spänningsgradient dvs i liten volym blir högt belastad. Man beräknar då anvisningsfaktorn $K_{f}$ som är motsvarande spänningskoncentrationsfaktor för utmattning enligt
+$$
+K_{f} = 1 + q(K_{t}-1)
+$$
+där $q$ - kälkänslighetsfaktor $\le 1$. $q$ beror av 
+- Kälradie $\rho$ 
+- Materialets brottsgräns $\sigma_{b}$.
+Spänningskoncentrationsfaktorn uppstår pga lokal geometri vid inåtgående hörn/ radie.  Skarpare hörn/ mindre radie $\implies$ högra $K_{t}$ och därmed högre $\sigma_{\text{max}}$. 
 
-
+## Beräkningsgång
+1. Ta fram materialdata för rådande belastningstyp:
+	- Drag - $\sigma_{u}$, $\sigma_{up}$
+	- Böj - $\sigma_{ub}$, $\sigma_{ubp}$
+	- Vrid - $\tau_{uv}$, $\tau_{uvp}$
+	Samt $\sigma_{b}=R$, $\sigma_{s}$, $\tau_{b}=\sigma_{b}/2$.
+2. 
 
 
