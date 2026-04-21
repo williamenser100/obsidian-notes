@@ -11,3 +11,12 @@ Bättre $\implies$ Värre
 ## Strukturer med anvisningar
 Exempel:
 ![[Pasted image 20260421145555.png]]
+I sista fallet blir
+$$
+\sigma_{max} = \lim_{ \rho \to 0 } \sigma_{\infty}\left( 1+2\sqrt{ \frac{a}{\rho} } \right) \to \infty.
+$$
+Ger inte så mycket info va...
+
+## Brottkriterier:
+
+
