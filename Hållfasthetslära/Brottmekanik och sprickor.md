@@ -27,4 +27,11 @@ Rakt framför sprickan så blir på x-axeln med $r=x$:
 $$
 \sigma_{y}(x) = \frac{K_{I}}{\sqrt{ 2\pi x }}
 $$
+Magnituden/ intensiteten sätts av värdet på $K_{I}$.
+Spänningsintensitetsfaktorn $K_{I}$ beror linjärt av yttre lasten, men även av geometrin enligt en principiell formel.
+$$
+K_{I} = \sigma_{o}\sqrt{ \pi a } \cdot f(\text{geometrin, lastfall})
+$$
+$a$ är spricklängden, $\sigma_{0}$ är nominell spänning och $f$ är en dimensionslös funktion. 
 
+Yttre lasts påverkan på tillståndet vid sprickan bestäms entydigt av värdet på $K_{I}$. 
