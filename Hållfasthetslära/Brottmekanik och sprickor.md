@@ -16,7 +16,15 @@ $$
 \sigma_{max} = \lim_{ \rho \to 0 } \sigma_{\infty}\left( 1+2\sqrt{ \frac{a}{\rho} } \right) \to \infty.
 $$
 Ger inte så mycket info va...
-
 ## Brottkriterier:
-
+Vid icke skarpa anvisningar, så beskrivs spänningen lokalt av $K_{t}$. Vid skarpa sprickor har vi oändlig spänning?
+Slutsats: Vid skarpa sprickor kan vi inte bestämma ett brottkriteria i form av spänningar.
+Analyseras med brottmekanik - metod/teori för att avgöra när en existerande spricka börjar "växa"(egentligen rusa). 
+Belastningen lokalt på sprickan beskrivs av spänningsintensitetsfaktorn, $K_{I}$. 
+## Spänningstillståndet nära en sprickspets
+Spänningsintensitetsfaktiorn $K_{I}$ är ett skalärt mått på hur materialet vid sprickspetsen belastas. $K_{I}$ har fysikalisk dimension (kraft/area)$\sqrt{ \text{längd} }$. Anges i $MPa\sqrt{ m }$. 
+Rakt framför sprickan så blir på x-axeln med $r=x$:
+$$
+\sigma_{y}(x) = \frac{K_{I}}{\sqrt{ 2\pi x }}
+$$
 
