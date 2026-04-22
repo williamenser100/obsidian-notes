@@ -43,4 +43,15 @@ Två tillåtna tillstånd:
 $$
 \psi(r_1, r_2) = A \left[ \psi_a(r_1)\psi_a(r_2) - \psi_a(r_2)\psi_a(r_1) \right] = 0
 $$
+## Atomer : periodiska systemet
 
+## Utbyteskraft
+Särskiljbara partiklar $\ket{\psi} =\underbrace{ \ket{m} }_{ par 1 }\otimes \underbrace{ \ket{n} }_{ par 2 }$. 
+$$
+\langle  (x_{1}-x_{2})^2 \rangle_{s} =\{ \cdots \} = \langle  x^2  \rangle_{a} +\langle x^2  \rangle_{b}  - 2\langle  x  \rangle_{a} \langle  x  \rangle_{b}
+$$
+Identiska partiklar $\ket{\psi} = \frac{1}{\sqrt{ 2 }} (\ket{mn}\pm \ket{nm})$ 
+$$
+\langle  (x_{1}-x_{2})^2 \rangle_{I} = \langle  (x_{1}-x_{2})^2 \rangle_{s} \mp 2 |\langle m | x | n \rangle|^2
+$$
+Extratermen ger en virtuell utbyteskraft. Symmetriska tillstånd attraherar, antisymmetriska repellerar. 
