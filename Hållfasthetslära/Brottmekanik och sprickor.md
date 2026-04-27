@@ -51,3 +51,27 @@ där $a$ är spricklängden och $W$ är bredden så kan LEFM tillämpas. Kallas 
 
 ### Spricktillväxt vid cykliskt fall
 Gradvis tillväxt vid belastning där $K_{I} < K_{Ic}$ - utmattningsfenomen. 
+Fall 1 FS s 266:
+$$
+K_{I} = \sigma(t) \sqrt{ \pi a } f_{1}\left( \frac{a}{W} \right)
+$$
+där
+$$
+\sigma(t) = \sigma_{m} + \sigma_{q}\sin \omega t
+$$
+$f_{1}$ ökar med $a$ $\implies$ $K_{I}$ ökar med $a$. Om $a$ ökar (dvs sprickan växer) då ökar också $K_{I,max}$ per cykel($N$).
+Spricktillväxten, $a(N)$, beskrivs väl av Paris lag:
+$$
+\frac{da}{dN} = C(\Delta K_{I})^n
+$$
+där $C,n$ är experimentellt bestämda materialparametrar. 
+$$
+\Delta K_{I} = 
+\begin{dcases}
+K_{I,max} -K_{I,min} & K_{I,min}>0\\
+K_{I,max} & K_{I,min}<0\\
+0, & K_{I,max} < 0
+\end{dcases}
+$$
+
+
