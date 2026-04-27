@@ -46,3 +46,8 @@ $$
 \min{(a,W-a)} \ge 2.5 \left( \frac{K_{Ic}}{\sigma_{s}} \right)^2
 $$
 där $a$ är spricklängden och $W$ är bredden så kan LEFM tillämpas. Kallas ASTM-villkoret.
+
+![[Pasted image 20260427093018.png]]
+
+### Spricktillväxt vid cykliskt fall
+Gradvis tillväxt vid belastning där $K_{I} < K_{Ic}$ - utmattningsfenomen. 
