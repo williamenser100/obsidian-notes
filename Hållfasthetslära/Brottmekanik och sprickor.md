@@ -35,3 +35,14 @@ $$
 $a$ är spricklängden, $\sigma_{0}$ är nominell spänning och $f$ är en dimensionslös funktion. 
 
 Yttre lasts påverkan på tillståndet vid sprickan bestäms entydigt av värdet på $K_{I}$. 
+$\implies$ Brottvillkor 
+$$
+K_{I} = K_{Ic}
+$$
+där $K_{Ic}$ är en materialparameter (tab 33.6). 
+### Brottvillkor - giltighet
+Linjärelastisk brottmekanik (LEFM) begränsas av plastisk deformation. Experiment visar att om
+$$
+\min{(a,W-a)} \ge 2.5 \left( \frac{K_{Ic}}{\sigma_{s}} \right)^2
+$$
+där $a$ är spricklängden och $W$ är bredden så kan LEFM tillämpas. Kallas ASTM-villkoret.
