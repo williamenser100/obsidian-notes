@@ -94,5 +94,38 @@ $$
 $$
 där 
 $$
-W_{ij}
+W_{ij} \equiv \langle \psi_{i}^0 | V | \psi_{j}^0 \rangle, \quad i,j = a,b
+$$
+som kommer ge ekvationssystemet
+$$
+\begin{pmatrix}
+W_{aa}  & W_{ab} \\
+W_{ba}  & W_{bb}
+\end{pmatrix} \begin{pmatrix}
+\alpha \\
+\beta
+\end{pmatrix} = E^1
+\begin{pmatrix}
+\alpha \\
+\beta
+\end{pmatrix}
+$$
+Vi vill välja ostörda basfunktioner som diagonaliserar störningen s.a $W_{ab} =W_{ba}=0$. Då blir
+$$
+E_+^{1} = W_{aa} = \langle \psi_a^{0} \mid V \mid \psi_a^{0} \rangle, 
+\quad
+E_-^{1} = W_{bb} = \langle \psi_b^{0} \mid V \mid \psi_b^{0} \rangle
+$$
+Om detta inte fungerar behöver vi diagonalisera, då fås
+$$
+E_{\pm}^{1} = \frac{1}{2} \left( W_{aa} + W_{bb} \pm \sqrt{(W_{aa} - W_{bb})^2 + 4|W_{ab}|^2} \right)
+$$
+## Variationsmetoden
+Bygger på idén att införa en variationsvågfunktion $\psi(\lambda)$ som beror på variationsparameter $\lambda$. Grundtillståndsenergin uppskattas enligt
+$$
+E_{0} \approx \langle \psi(\lambda) | H | \psi(\lambda) \rangle
+$$
+Sats: För vilken vågfunktion som helst gäller
+$$
+E_{0} \le \langle \psi | H | \psi \rangle
 $$
