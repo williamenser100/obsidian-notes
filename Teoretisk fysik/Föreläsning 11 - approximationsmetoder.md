@@ -46,6 +46,53 @@ För **andra ordningens korrektion till energin** fås
 $$
 E_n^2 = \sum_{m \ne n} \frac{\left| \langle \psi_m^0 \mid V \mid \psi_n^0 \rangle \right|^2}{E_n^0 - E_m^0}
 $$
-## Anharmonisk oscillator
+## Anharmonisk oscillator exempel
+$$
+H^0 = \frac{p^2}{2m} + \frac{1}{2} m \omega^2 x^2, 
+\quad 
+V = \lambda \frac{m^2 \omega^3}{\hbar} x^4, 
+\quad 
+E_n^1 = \lambda \frac{m^2 \omega^3}{\hbar} \langle n \mid x^4 \mid n \rangle
+$$
+$$
+x = \sqrt{\frac{\hbar}{2m\omega}} (a^\dagger + a)
+\;\Rightarrow\;
+x^4 = \left( \frac{\hbar}{2m\omega} \right)^2 (a^\dagger + a)^4
+$$
 
+som efter jobb kommer ge
+$$
+\langle n \mid (a^\dagger + a)^4 \mid n \rangle = 6n^2 + 6n + 3 = 3(2n^2 + 2n + 1)
+$$
+alltså
+$$
+\langle E_n^1 \rangle 
+= \lambda \frac{m^2 \omega^3}{\hbar} \left( \frac{\hbar}{2m\omega} \right)^2 3(2n^2 + 2n + 1)
+= \frac{3\lambda}{4} \hbar \omega (2n^2 + 2n + 1)
+$$
+## Elektronens anomala magnetiska moment
 
+## Degenererad störningsräkning
+Vid degenererade ostörda energier fungerar inte ovan
+Tvåfalt degenererad nivå
+$$
+H^0 \psi_a^0 = E^0 \psi_a^0, \quad
+H^0 \psi_b^0 = E^0 \psi_b^0, \quad
+\langle \psi_a^0 \mid \psi_b^0 \rangle = 0
+$$
+söker
+$$
+\psi = \psi^0 + \psi^1 = \alpha\psi_{a}^0 + \beta\psi_{b}^0 +\psi^1
+$$
+Första ordningens korrektion blir
+$$
+H^0 \psi^1 + V \psi^0 = E^0 \psi^1 + E^1 \psi^0
+$$
+som med inre produkten med $\psi_{a}^0$ ger
+$$
+\alpha W_{aa} + \beta W_{bb} = \alpha E^1
+$$
+där 
+$$
+W_{ij}
+$$
