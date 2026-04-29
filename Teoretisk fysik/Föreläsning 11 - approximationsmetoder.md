@@ -34,6 +34,7 @@ Om vi bildar inre produkten av första ordningens termer får vi **första ordni
 $$
 E_{n}^1 =\langle \psi_{n}^0 | V | \psi_{n}^0 \rangle
 $$
+vilken säger att första ordningens korrektion till energin är väntevärdet av störningen, i det ostörda tillståndet.
 Om vi utvecklar första ordningen korrektion i de ostörda basfunktionerna
 $$
 \psi_{n}^1 = \sum_{m\ne n} c_{m} \psi_{m}^0, \quad c_{m} = \langle\psi_{m}^0  | \psi_{n}^1 \rangle
