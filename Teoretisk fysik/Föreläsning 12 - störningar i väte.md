@@ -16,3 +16,27 @@ Inför finstrukturkonstanten
 $$
 \alpha = \frac{e^2}{4\pi\epsilon_{0}\hbar c}\approx \frac{1}{137}
 $$
+
+## Zeemaneffekten
+Zeeman-störningen är 
+$$
+V = -(\boldsymbol{\mu}_{l}+\boldsymbol{\mu}_{s})\cdot \mathbf{B}=\frac{e}{2m} \mathbf{B}\cdot(\mathbf{J}+\mathbf{S})
+$$
+där
+$$
+J \equiv \mathbf{L}+\mathbf{S}
+$$
+### Svaga fält $B \ll B_{int}$
+Första ordningens energikorrektion blir
+$$
+E^1 = \mu_{B} gBm_{j}
+$$
+där $g$ är Landé faktorn
+$$
+g = 1 + \frac{j(j+1) + s(s+1) - l(l+1)}{2j(j+1)}
+$$
+och Bohrmagnetonen
+$$
+\mu_{B} = \frac{e\hbar}{2m}.
+$$
+
