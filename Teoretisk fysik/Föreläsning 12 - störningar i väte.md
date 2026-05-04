@@ -39,4 +39,12 @@ och Bohrmagnetonen
 $$
 \mu_{B} = \frac{e\hbar}{2m}.
 $$
-
+### Starka fält $B\gg B_{int}$ : Paschen-Back effekt
+Zeemaneffekten dominerar. Första ordningens korrektion blir
+$$
+E^1 = \mu_{B} B(m_{l}+2m_{s})
+$$
+Som kommer ge
+$$
+E^1_{fs} = \frac{13.6 \text{ eV}}{n^3} \alpha^2 \left( \frac{3}{4n} - \frac{l(l+1) - m_l m_s}{l(l+1/2)(l+1)} \right)
+$$
