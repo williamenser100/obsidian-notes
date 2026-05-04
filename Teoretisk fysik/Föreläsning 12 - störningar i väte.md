@@ -48,3 +48,5 @@ Som kommer ge
 $$
 E^1_{fs} = \frac{13.6 \text{ eV}}{n^3} \alpha^2 \left( \frac{3}{4n} - \frac{l(l+1) - m_l m_s}{l(l+1/2)(l+1)} \right)
 $$
+## Hyperfinstruktur
+Den hyperfina strukturen tar utöver elektronens magnetiska moment också hänsyn till protonens magnetiska moment. 
