@@ -67,6 +67,20 @@ Stimulerad emission
 Spontan emission
 
 ## Inkoherent störning
+Vi antar opolariserad strålning som träffar atomen från alla riktningar
+$$
+u = \epsilon_{0}E_{0}^2\cos^2\omega t
+$$
+Denna strålningsenergis (medelvärde) används som störning med $V_{ab}=-DE_{0}$
+$$
+|V_{ab}|^2=\frac{2D^2}{\epsilon_{0}}u
+$$
+För många tillämpningar består strålningen av många olika frekvenser istället för en enda frekvens. Vi antar då en fördelning av frekvenser med energitätheten $\rho(\omega)$ per frekvensintervall. $\implies u\to \rho(\omega)d\omega$. Då kommer sannolikheten ges då av summan över alla frekvenser
+$$
+P_{a\rightarrow b}(t) = \frac{2D^2}{\epsilon_0\hbar^2} \int_0^{\infty} \rho(\omega) \frac{\sin^2((\omega_0 - \omega)t/2)}{(\omega_0 - \omega)^2} d\omega
+$$
+
+
 
 
 
