@@ -50,5 +50,12 @@ c_{b} = \frac{\pi V_{ab}}{i\hbar} \delta(\omega_{0}-\omega)
 $$
 Definiera övergångshastigheten $R=P_{a\to b}/t$ 
 $$
-R = \frac{\pi}{2\hbar^2} |V_{ab}|^2 \delta(\omega-)
+R = \frac{\pi}{2\hbar^2} |V_{ab}|^2 \delta(\omega_{0}-\omega)
 $$
+Deltafunktionen säger att övergången sker om 
+$$
+E_{b} = E_{a}-\hbar \omega
+$$
+Systemet sänker sin energi från $E_{a}$ till $E_{b}$ genom att avge $\hbar \omega$ till omgivningen. x
+## Emission och absorption av strålning 
+
