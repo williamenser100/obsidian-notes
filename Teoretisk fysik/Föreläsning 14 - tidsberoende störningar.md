@@ -104,7 +104,6 @@ $$
 
 
 
-
 ## Livstiden hos ett exciterat tillstånd
 
 
