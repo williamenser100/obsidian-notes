@@ -52,5 +52,15 @@ Vid höga $T$ sammanfaller FD och BE till Maxwell-Boltzmannfördelningen
 $$
 f_{k}^{MB} = e^{-\beta(E_{k}-\mu)}
 $$
+## Metallers egenskaper vid låga temperaturer
+FD fördelningen då $T \to 0$ ger en stegfunktion
+$$
+f_k^{FD} = \frac{1}{e^{\beta(E_k - \mu)} + 1} = \begin{cases} 1 & E_k < \mu \\ 0 & E_k > \mu \end{cases}
+$$
+Värmekapaciteten beskrivs experimentellt vid låg temperatur av 
+$$
+C = \frac{ \partial \langle E \rangle }{ \partial T } + \gamma T+\delta T^2 
+$$
+Där första termen kommer från elektronbidraget och andra från fononbidraget.
 
 
