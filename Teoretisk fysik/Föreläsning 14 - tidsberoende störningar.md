@@ -58,4 +58,21 @@ E_{b} = E_{a}-\hbar \omega
 $$
 Systemet sänker sin energi från $E_{a}$ till $E_{b}$ genom att avge $\hbar \omega$ till omgivningen. x
 ## Emission och absorption av strålning 
+Absorption
+
+Emission
+
+Stimulerad emission
+
+Spontan emission
+
+## Inkoherent störning
+
+
+
+
+## Einsteins A och B koefficienter
+
+## Livstiden hos ett exciterat tillstånd
+
 
