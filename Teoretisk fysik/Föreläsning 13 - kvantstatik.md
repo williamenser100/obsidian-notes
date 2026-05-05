@@ -42,6 +42,15 @@ f_k = \frac{\sum_{n_k=0,1} n_k e^{-\beta(E_k-\mu)n_k}}{\sum_{n_k=0,1} e^{-\beta(
 $$
 Vilket ger Fermi-Dirac fördelningen
 $$
-f_{K}^{FD}
+f_{K}^{FD} = \frac{1}{e^{\beta(E_k-\mu)}+1}
 $$
+För identiska bosoner är $n=0,1,2,\dots$ Detta kommer ge Bose-Einsteinfördelningen
+$$
+f_{k}^{BE} = \frac{1}{e^{\beta(E_{k}-\mu)}}
+$$
+Vid höga $T$ sammanfaller FD och BE till Maxwell-Boltzmannfördelningen 
+$$
+f_{k}^{MB} = e^{-\beta(E_{k}-\mu)}
+$$
+
 
