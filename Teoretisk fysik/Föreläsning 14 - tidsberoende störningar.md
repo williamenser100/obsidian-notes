@@ -38,7 +38,17 @@ Systemets utsätts för ett oscillerande fält som beskrivs som oscillerande st�
 $$
 V(t) = V(\mathbf{r})\cos \omega t
 $$
-Detta kommer ge
+Detta kommer ge (till första ordningen)
 $$
 P_{a\to b} = \frac{|V_{ab}|^2}{\hbar^2} \frac{\sin^2((\omega_{0}-\omega)t/2)}{(\omega_{0}-\omega)^2}
+$$
+Sannolikheten är störst när frekvensen $\omega$ är nära systemets egna frekvens $\omega_{0}$, vilket är resonans.
+
+För långa $t$ får vi 
+$$
+c_{b} = \frac{\pi V_{ab}}{i\hbar} \delta(\omega_{0}-\omega)
+$$
+Definiera övergångshastigheten $R=P_{a\to b}/t$ 
+$$
+R = \frac{\pi}{2\hbar^2} |V_{ab}|^2 \delta(\omega-)
 $$
