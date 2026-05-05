@@ -79,13 +79,30 @@ För många tillämpningar består strålningen av många olika frekvenser istä
 $$
 P_{a\rightarrow b}(t) = \frac{2D^2}{\epsilon_0\hbar^2} \int_0^{\infty} \rho(\omega) \frac{\sin^2((\omega_0 - \omega)t/2)}{(\omega_0 - \omega)^2} d\omega
 $$
-
-
-
-
-
-
+som approximeras och fås då till
+$$
+P_{a\to b}(t) = \frac{\pi D^2}{\epsilon_{0} \hbar^2}\rho(\omega_{0})t
+$$
+Övergångshastigheten $R=\frac{dP}{dt}$ 
+$$
+R = \frac{\pi D^2}{\epsilon_{0}\hbar^2}\rho(\omega_{0})
+$$
+Om vi tar hänsyn till att strålningen kommer från alla riktningar så kommer övergångshastigheten bli
+$$
+R_{a\to b} = \frac{\pi}{3\epsilon_{0}\hbar^2} |D|^2\rho(\omega_{0})
+$$
 ## Einsteins A och B koefficienter
+Koefficienten i övergångshastigheten är Einsteins B-koefficient
+$$
+B_{ab} = \frac{\pi}{3\epsilon_{0}\hbar^2} |D|^2 = B_{ba}
+$$
+
+
+
+
+
+
+
 
 ## Livstiden hos ett exciterat tillstånd
 
