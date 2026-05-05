@@ -96,6 +96,9 @@ Koefficienten i övergångshastigheten är Einsteins B-koefficient
 $$
 B_{ab} = \frac{\pi}{3\epsilon_0\hbar^2}|D|^2 = B_{ba}
 $$
+$$
+\Xi
+$$
 
 
 
