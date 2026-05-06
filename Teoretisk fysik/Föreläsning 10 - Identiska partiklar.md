@@ -37,7 +37,7 @@ Nytt postulat i icke-relativistisk KM
 
 Två tillåtna tillstånd:
 - $\Psi(r_{1},r_{2})=-\Psi(r_{2},r_{1})$ $\implies \chi$ symmetrisk dvs tripletten $\ket{11} = \uparrow \uparrow$, $\ket{10} = \frac{1}{\sqrt{ 2 }}(\uparrow \downarrow + \downarrow \uparrow)$, $\ket{1,-1}=\downarrow\downarrow$.
--  $\Psi(r_{1},r_{2})=+\Psi(r_{2},r_{1})$ $\implies \chi$ antisymetrisk : singletten $\ket{00} = \frac{1}{\sqrt{ 2 }}(\uparrow \downarrow + \downarrow \uparrow)$. 
+-  $\Psi(r_{1},r_{2})=+\Psi(r_{2},r_{1})$ $\implies \chi$ antisymetrisk : singletten $\ket{00} = \frac{1}{\sqrt{ 2 }}(\uparrow \downarrow - \downarrow \uparrow)$. 
 
 **Pauliprincipen** : två identiska fermioner kan inte vara i samma tillstånd. 
 $$
