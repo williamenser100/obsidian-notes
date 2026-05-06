@@ -92,16 +92,21 @@ $$
 R_{a\to b} = \frac{\pi}{3\epsilon_{0}\hbar^2} |D|^2\rho(\omega_{0})
 $$
 ## Einsteins A och B koefficienter
-Koefficienten i övergångshastigheten är Einsteins B-koefficient
+Koefficienten i övergångshastigheten är Einsteins $B$-koefficient
 $$
 B_{ab} = \frac{\pi}{3\epsilon_0\hbar^2}|D|^2 = B_{ba}
 $$
-
-
-
-
-
-
+Om $A$ är hastigheten för spontan emission så att antalet partiklar som lämnar det övre tillståndet är $N_{b}A$. Då visar det sig att
+$$
+A = \frac{\omega_{0}^3\hbar}{\pi^2c^3}B_{ba}=\frac{\omega_{0}^{3}|P|^{2}}{3\pi\epsilon_{0}\hbar c^{3}}
+$$
 ## Livstiden hos ett exciterat tillstånd
-
+Utan ett pålagt fält blir antalet partiklar som lämnar det exciterade tillståndet pga spontan emission
+$$
+\frac{dN_{b}}{dt} = -AN_{b} \implies N_{b}(t) = N_{b}(0)e^{-At}
+$$
+Livstiden hos det exciterade tillståndet blir då
+$$
+\tau = \frac{1}{A}
+$$
 

@@ -51,7 +51,7 @@ S_{z} = - \frac{\hbar}{2} \text{ spinn ner} : \ket{\frac{1}{2}, -\frac{1}{2}} = 
 $$
 Spinnrummet är tvådimensionellt fullständigt Hilbertrum med bas $\chi_{+},\chi_{-}$
 
-Fullständighet : identtietsoperatorn $\hat{I}\ket{\psi}=\ket{\psi}\ \ \forall \ket{\psi}$
+Fullständighet : identitetsoperatorn $\hat{I}\ket{\psi}=\ket{\psi}\ \ \forall \ket{\psi}$
 $$
 \hat{I} = \sum_{s=1/2,m=\pm 1/2} \ket{sm} \bra{sm}  = \ket{+} \bra{+} + \ket{-} \bra{-} = \begin{bmatrix}
 1 & 0 \\
