@@ -130,10 +130,3 @@ Sats: För vilken vågfunktion som helst gäller
 $$
 E_{0} \le \langle \psi | H | \psi \rangle
 $$
-
-$$
-E = \langle \psi | H | \psi \rangle = \sum_{n=0}^{\infty} \underbrace{E_n}_{E_0 + E_n - E_0} |c_n|^2 = E_0 + \sum_{n=1}^{\infty} \underbrace{(E_n - E_0)}_{>0} |c_n|^2 \geq E_0
-$$
-$$
-\Psi_{100} = \sqrt{\frac{Z^3}{\pi a^3}} e^{-Zr/a}
-$$
