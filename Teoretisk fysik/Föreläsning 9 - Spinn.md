@@ -19,7 +19,7 @@ $$
 Spinntillståndet beskrivs av spinorer $\ket{\chi}$
 Egenvektorer
 $$
-\hat{S}\ket{sm} = s(s+1)\hbar^2\ket{sm}, \quad \hat{S}_{z}\ket{sm} = m\hbar \ket{sm}. 
+\hat{S}^2\ket{sm} = s(s+1)\hbar^2\ket{sm}, \quad \hat{S}_{z}\ket{sm} = m\hbar \ket{sm}. 
 $$
 Hilbertrummet : spinnrummet, totalt tillstånd:
 $$
