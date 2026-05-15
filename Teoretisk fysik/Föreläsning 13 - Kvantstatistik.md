@@ -36,7 +36,7 @@ $$
 Planckfördelningen har $\mu=0$, materiepartiklar har $\mu=\mu(T)$, tempertaturberoende funktion. 
 
 ## Fermi-Dirac och Bose-Einstein fördelningar
-Pauliprincipen säger att för identiska fermioner är $n_{k}=0,1$. Fördelningsfunktionen vlir
+Pauliprincipen säger att för identiska fermioner är $n_{k}=0,1$. Fördelningsfunktionen blir
 $$
 f_k = \frac{\sum_{n_k=0,1} n_k e^{-\beta(E_k-\mu)n_k}}{\sum_{n_k=0,1} e^{-\beta(E_k-\mu)n_k}} = \frac{e^{-\beta(E_k-\mu)}}{1 + e^{-\beta(E_k-\mu)}}
 $$
@@ -46,7 +46,7 @@ f_{K}^{FD} = \frac{1}{e^{\beta(E_k-\mu)}+1}
 $$
 För identiska bosoner är $n=0,1,2,\dots$ Detta kommer ge Bose-Einsteinfördelningen
 $$
-f_{k}^{BE} = \frac{1}{e^{\beta(E_{k}-\mu)}}
+f_{k}^{BE} = \frac{1}{e^{\beta(E_{k}-\mu)}-1}
 $$
 Vid höga $T$ sammanfaller FD och BE till Maxwell-Boltzmannfördelningen 
 $$
