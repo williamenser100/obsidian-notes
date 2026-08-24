@@ -11,8 +11,10 @@ $$
  $$
  \vec{E}(\vec{r}) = \frac{1}{4\pi\varepsilon_{0}}\int dq(\vec{r}') \frac{\hat{R}}{R^2}
  $$
+ Volym:
+ Yta:
+ Längd:
  Elektrisk kraft
  $$
  \vec{F}_{e} = \int \vec{E}(\vec{r})\ dq(\vec{r})
  $$
- 
