@@ -79,4 +79,4 @@ $$
 \hat{G}(x) = \mathcal{G}_{k} \text{ if } \Pr(\mathcal{G}_{k}|X=x) = \max_{g \in \mathcal{G}} \Pr(g|X=x).
 $$
 ## Local Methods in High Dimensions
-If you want to model a section of a high dimensional space 
+In high dimensions, if you want to capture a small fraction of the data in a particular region, you need a much larger range of every variable. That means that if you try to model k nearest neighbour, the neighbours which are close are not really close and the model picks up a lot of bias.
