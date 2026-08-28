@@ -61,3 +61,16 @@ $$
 f(x) = E(Y|X=x)
 $$
 known as the *regression* function.
+
+If the output is a categorical variable $G$, an estimate $\hat{G}$ assumes values in the set of possible classes $\mathcal{G}$. The loss function is represented by a $K\times K$ matrix $\mathbf{L}$, where $K=\text{card}(\mathcal{G})$. $\mathbf{L}$ will be zero on the diagonal and nonnegative elsewhere. A common way to define the loss function is for it to be zero on the diagonal and one for all misclassifications.
+$$
+\text{EPE}=\text{E}[L(G,\hat{G}(X))]
+$$
+which is taken against $Pr(G,X)$. We can write
+$$
+\text{EPE} = E_{x}\sum_{k=1}^KL[\mathcal{G}_{k}, \hat{G}(X)]\text{Pr}(\mathcal{G}_{k}|X)
+$$
+we can minimize EPE pointwise
+$$
+\hat{G}(x) = \text{argmin}_{g \in \mathcal{G}} \sum_{k=1}^{K} L(\mathcal{G}_k, g) \text{Pr}(\mathcal{G}_k | X = x).
+$$
