@@ -12,4 +12,30 @@ Given a vector of inputs $X^T = (X_{1}, X_{2},\dots,X_{p})$, we predict $Y$ via 
 $$
 \hat{Y} = \hat{\beta}_0 + \sum_{j=1}^{p} X_j \hat{\beta}_j.
 $$
-where $\hat{\beta}_{0}$ is the intercept. 
+where $\hat{\beta}_{0}$ is the intercept. Can be written in vector form by including the constant variable $1$ in $X$ and include $\hat{\beta}_{0}$ in the vector $\hat{\beta}$ as 
+$$
+\hat{Y}=X^T\hat{\beta}.
+$$
+#### Least squares
+Choose the coefficients in the vector $\beta$ as to minimize 
+$$
+\text{RSS}(\beta) = \sum_{i=1}^{N}(y_i - x_i^T \beta)^2.
+$$
+or
+$$
+RSS(\beta) = (\mathbf{y} - \mathbf{X}\beta)^T(\mathbf{y} - \mathbf{X}\beta),
+$$
+where $\mathbf{X}$ is a $P\times n$ matrix with each row being an input vector and $\mathbf{y}$ is an $N$-vector of the outputs in the training set. By differentiating by $\beta$ we get 
+$$
+\mathbf{X}^{T}(\mathbf{y} - \mathbf{X}\beta) = 0.
+$$
+If $\mathbf{X}^T\mathbf{X}$ is nonsingular, then the unique solution is 
+$$
+\hat{\beta} = (\mathbf{X}^{\mathbf{T}}\mathbf{X})^{-1}\mathbf{X}^{\mathbf{T}}\mathbf{y},
+$$
+#### Nearest-Neigbour Methods
+The $k$-nearest neigbour fit for $\hat{Y}$ is defined by finding the $k$ training points whose inputs are closest to $x$, then predict $\hat{Y}(x)$ as the average of their $y$ values.
+
+$$
+\hat{Y}(x) = \frac{1}{k} \sum_{x_i \in N_k(x)} y_i,
+$$
