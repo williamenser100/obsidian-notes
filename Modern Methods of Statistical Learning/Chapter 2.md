@@ -80,3 +80,17 @@ $$
 $$
 ## Local Methods in High Dimensions
 In high dimensions, if you want to capture a small fraction of the data in a particular region, you need a much larger range of every variable. That means that if you try to model k nearest neighbour, the neighbours which are close are not really close and the model picks up a lot of bias.
+
+In a similar way, in high dimensions the sample points are all close to the edge of the sample. 
+
+The sampling density is proportional to $N^{1/p}$ where $p$ is the dimension of the input space and $N$ is the input size, meaning that you need a much larger input size to get the same sampling density in higher dimensions. 
+
+If we have a training set $\mathcal{T}$ with 1000 training examples $x_{i}$ and use the 1 nearest neighbour model to predict $y_{0}$. The mean square error is then,
+$$
+\begin{aligned}
+\text{MSE}(x_0) &= \text{E}_{\mathcal{T}}[f(x_0) - \hat{y}_0]^2 \\
+&= \text{E}_{\mathcal{T}}[\hat{y}_0 - \text{E}_{\mathcal{T}}(\hat{y}_0)]^2 + [\text{E}_{\mathcal{T}}(\hat{y}_0) - f(x_0)]^2 \\
+&= \text{Var}_{\mathcal{T}}(\hat{y}_0) + \text{Bias}^2(\hat{y}_0).
+\end{aligned}
+$$
+where the MSE is split into two componetns, the variance and the bias. This is known as *bias-variance decomposition*. 
