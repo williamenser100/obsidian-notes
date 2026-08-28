@@ -39,3 +39,25 @@ The $k$-nearest neigbour fit for $\hat{Y}$ is defined by finding the $k$ trainin
 $$
 \hat{Y}(x) = \frac{1}{k} \sum_{x_i \in N_k(x)} y_i,
 $$
+## Statistical Decision Theory
+Let $X \in \mathbb{R}^p$ denote a real value random input vector and $Y \in \mathbb{R}$ a real valued output vector. They have a joint distribution $\text{Pr}(X,Y)$. We seek $f(X)$ for predicting $Y$. 
+Let $L(Y, f(X))$ be the *loss function* for penalizing errors in prediction, the most common one is the squared error loss
+$$
+L(Y, f(X)) = (Y-f(X))^2
+$$
+The expected prediction error is then 
+$$
+EPE(f) = E[(Y-f(X))^2] = \int [y - f(x)]^2 \Pr(dx, dy)
+$$
+which can be written as 
+$$
+\text{EPE}(f) = \text{E}_{X}\text{E}_{Y|X}\left([Y - f(X)]^2 | X\right)
+$$
+$$
+f(x) = \text{argmin}_{c} \mathbb{E}_{Y|X}\left([Y-c]^2 | X = x\right).
+$$
+with the solution
+$$
+f(x) = E(Y|X=x)
+$$
+known as the *regression* function.
