@@ -94,3 +94,6 @@ $$
 \end{aligned}
 $$
 where the MSE is split into two componetns, the variance and the bias. This is known as *bias-variance decomposition*. 
+## Model Selection and the Bias-Variance Tradeoff
+All models have a *smoothing* or *complexity* parameter which has to be determined. These parameters can not be determined by using the residual sum-of-squares error since we would always pick those which would fit the training data with zero residual.
+
