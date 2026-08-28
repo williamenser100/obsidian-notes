@@ -74,3 +74,9 @@ we can minimize EPE pointwise
 $$
 \hat{G}(x) = \text{argmin}_{g \in \mathcal{G}} \sum_{k=1}^{K} L(\mathcal{G}_k, g) \text{Pr}(\mathcal{G}_k | X = x).
 $$
+which with zero-one loss function becomes 
+$$
+\hat{G}(x) = \mathcal{G}_{k} \text{ if } \Pr(\mathcal{G}_{k}|X=x) = \max_{g \in \mathcal{G}} \Pr(g|X=x).
+$$
+## Local Methods in High Dimensions
+If you want to model a section of a high dimensional space 
