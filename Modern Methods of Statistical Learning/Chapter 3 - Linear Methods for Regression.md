@@ -24,5 +24,26 @@ $$
 \text{MSE}(\tilde{\theta}) = E(\tilde{\theta}-\theta)^2=\text{Var}(\tilde{\theta})+[E(\tilde{\theta})-\theta]^2.
 $$
 The first term is the variance and the second term is the bias squared. The GM theorem states that the least square estimator has the smallest MSE for unbiased estimators. But there may as well exist a a biased estimator with smaller mean squared error, which would trade some bias for a smaller variance. When choosing an estimation model, the variance bias relationship needs to be considered.
+## Univariate Regression
+The univariate regression model
+$$
+Y=X\beta+\varepsilon
+$$
+which is the original linear model with $p=1$ and no intercept. Then, the least square estimator and residual is
+$$
+\hat{\beta}=\frac{\sum_{1}^Nx_{i}y_{i}}{\sum_{1}^Nx_{i^2}}, \quad r_{i}=y_{i} -x_{i}\hat{\beta}. 
+$$
+which can be written as 
+$$
+\hat{\beta}=\frac{\langle \mathbf{x} | \mathbf{y} \rangle}{\langle \mathbf{x} | \mathbf{x} \rangle}, \quad \mathbf{r}=\mathbf{y}-\mathbf{x}\hat{\beta}
+$$
+## Multiple outputs
+For outputs $Y_{1},Y_{2},\dots,Y_{K}$ to predict from inputs $X_{0},X_{1},\dots,X_{p}$. Assume linear model
+$$
+Y_{k}= \beta_{0}k+\sum_{j=1}^p X_{j}\beta_{jk} + \varepsilon_{k}=f_{k}(X)+\varepsilon
+$$
+
+
+
 
 
