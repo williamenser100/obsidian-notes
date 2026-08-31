@@ -42,6 +42,30 @@ For outputs $Y_{1},Y_{2},\dots,Y_{K}$ to predict from inputs $X_{0},X_{1},\dots,
 $$
 Y_{k}= \beta_{0}k+\sum_{j=1}^p X_{j}\beta_{jk} + \varepsilon_{k}=f_{k}(X)+\varepsilon
 $$
+which can be written as 
+$$
+\mathbf{Y}=\mathbf{X}\mathbf{B}+\mathbf{E}
+$$
+where $\mathbf{Y}$ is the $N\times K$ response matrix with $ik$ entry $y_{ik}$. $\mathbf{X}$ is $N\times p+1$ input matrix, $\mathbf{B}$ is the $p+1\times K$ matrix of parameters and $\mathbf{E}$ is the $N\times K$ matrix of errors. 
+This can generalize the univariate loss function with a matrix as the input $RSS(\mathbf{B})$ instead of $RSS(\beta)$ as:
+$$
+\text{RSS}(\mathbf{B}) = \sum_{k=1}^{K} \sum_{i=1}^{N} (y_{ik} - f_k(x_i))^2 = \text{tr}[(\mathbf{Y} - \mathbf{X}\mathbf{B})^T(\mathbf{Y} - \mathbf{X}\mathbf{B})]
+$$
+which is on the same form as before
+$$
+\hat{B} = (X^TX)^{-1} X^TY.
+$$
+This means that multiple outputs do not affect each others estimates. 
+
+So what about if the errors in the matrix $E$ are correlated? The elements of $E$ are $\varepsilon=(\varepsilon_{1},\dots,\varepsilon_{k})$ and the covariance matrix for $\varepsilon$ is $\Sigma$. Then,
+$$
+RSS(B;\Sigma) = \sum_{i=1}^N(y_{i}-f(x_{i}))^T\Sigma^{-1}(y_{i}-f(x_{i}))
+$$
+It can be shown that the solution is still
+$$
+\hat{B} = (X^TX)^{-1} X^TY.
+$$
+
 
 
 
