@@ -4,3 +4,8 @@ f(X) = \beta_{0}+\sum_{j=1}^p X_{j} \beta_{j}
 $$
 
 
+## The Gauss-Markov Theorem
+We want to estimate $\theta=a^T\beta$, for example $f(x_{0})=x_{0}^T\beta$ are on this form.
+$$
+\hat{\theta}=a^T\hat{\beta}
+$$
