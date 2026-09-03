@@ -2,8 +2,6 @@ Linear regression model assumes the regression function $E(Y|X)$ is linear in th
 $$
 f(X) = \beta_{0}+\sum_{j=1}^p X_{j} \beta_{j}
 $$
-
-
 ## The Gauss-Markov Theorem
 We want to estimate $\theta=a^T\beta$, for example $f(x_{0})=x_{0}^T\beta$ are on this form. Its least square estimate 
 $$
@@ -38,7 +36,7 @@ $$
 \hat{\beta}=\frac{\langle \mathbf{x} | \mathbf{y} \rangle}{\langle \mathbf{x} | \mathbf{x} \rangle}, \quad \mathbf{r}=\mathbf{y}-\mathbf{x}\hat{\beta}
 $$
 ## Multiple outputs
-For outputs $Y_{1},Y_{2},\dots,Y_{K}$ to predict from inputs $X_{0},X_{1},\dots,X_{p}$. Assume linear model
+For multiple outputs $Y_{1},Y_{2},\dots,Y_{K}$ to predict from inputs $X_{0},X_{1},\dots,X_{p}$. Assume linear model
 $$
 Y_{k}= \beta_{0}k+\sum_{j=1}^p X_{j}\beta_{jk} + \varepsilon_{k}=f_{k}(X)+\varepsilon
 $$
