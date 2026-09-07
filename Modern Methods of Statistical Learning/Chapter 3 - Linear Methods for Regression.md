@@ -64,6 +64,7 @@ $$
 \hat{B} = (X^TX)^{-1} X^TY.
 $$
 
+## Subset selection
 
 
 
