@@ -6,3 +6,6 @@
 
 
 Så fort **I** finns med alltså $K_{I}\ne 0$ så kommer slutvärdet hamna exakt rätt.
+$$
+\[G\left(s\right)=\frac{K\left(s+1\right)}{\left(s+1.5\right)\left(s-2\right)+K\left(s+1\right)}\]
+$$
